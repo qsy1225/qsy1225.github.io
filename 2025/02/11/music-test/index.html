@@ -30,7 +30,7 @@
     <meta name="description" content="const ap &#x3D; new APlayer({ container: document.getElementById(‘aplayer’), audio: [{ name: ‘name’, artist: ‘artist’, url: ‘&#x2F;music-test&#x2F;bird_short.wav’, cover: ‘bg_1_update_01.png’ }] });">
 <meta property="og:type" content="article">
 <meta property="og:title" content="music-test">
-<meta property="og:url" content="http://qsy1225.github.io/2025/02/11/music-test/index.html">
+<meta property="og:url" content="https://qsy1225.github.io/2025/02/11/music-test/index.html">
 <meta property="og:site_name" content="小站">
 <meta property="og:description" content="const ap &#x3D; new APlayer({ container: document.getElementById(‘aplayer’), audio: [{ name: ‘name’, artist: ‘artist’, url: ‘&#x2F;music-test&#x2F;bird_short.wav’, cover: ‘bg_1_update_01.png’ }] });">
 <meta property="og:locale" content="zh_CN">
@@ -171,6 +171,8 @@
     
     
     
+      <a id="nav-search-btn" class="nav-icon popup-trigger" title="搜索"></a>
+    
   </nav>
 </div>
 <header id="header">
@@ -205,8 +207,6 @@
         <div id="content"  class="sidebar-right" >
           <aside id="sidebar">
   
-    <div id="aplayer" theme="var(--color-link)" data-aos="fade-up"></div>
-  
   
   <div class="sidebar-wrapper wrap-sticky">
     <div class="sidebar-wrap" data-aos="fade-up">
@@ -223,20 +223,20 @@
         <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="星辰星宇1314" class="lazyload">
   <div class="sidebar-author-name">星辰星宇1314</div>
-  <div class="sidebar-description">v  1.0.0</div>
+  <div class="sidebar-description"></div>
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>文章</div>
-    <div class="sidebar-state-number">6</div>
+    <div class="sidebar-state-number">7</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
-    <div class="sidebar-state-number">4</div>
+    <div class="sidebar-state-number">5</div>
   </div>
   <div class="sidebar-state-tag">
     <div>标签</div>
-    <div class="sidebar-state-number">5</div>
+    <div class="sidebar-state-number">6</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -350,6 +350,19 @@ cover: ‘bg_1_update_01.png’<br />
   
   <nav id="article-nav" data-aos="fade-up">
     
+      <div class="article-nav-link-wrap article-nav-link-left">
+        
+          <img data-src="/pp/aurora/cover.jpg" data-sizes="auto" alt="Hexo Aurora主题修改页脚" class="lazyload">
+        
+        <a href="/2025/02/14/aurora/"></a>
+        <div class="article-nav-caption">前一篇</div>
+        <h3 class="article-nav-title">
+          
+            Hexo Aurora主题修改页脚
+          
+        </h3>
+      </div>
+    
     
     <div class="article-nav-link-wrap article-nav-link-right">
       
@@ -382,6 +395,8 @@ cover: ‘bg_1_update_01.png’<br />
 </section>
         </div>
         
+          <div id="aplayer" theme="var(--color-link)" data-aos="fade-up"></div>
+        
         
         <footer id="footer">
   <div style="width: 100%; overflow: hidden">
@@ -399,10 +414,10 @@ cover: ‘bg_1_update_01.png’<br />
     
       <div>
         <span class="icon-brush"></span>
-        298
+        904
         &nbsp;|&nbsp;
         <span class="icon-coffee"></span>
-        00:06
+        00:08
       </div>
     
     
@@ -442,20 +457,20 @@ cover: ‘bg_1_update_01.png’<br />
       <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="星辰星宇1314" class="lazyload">
   <div class="sidebar-author-name">星辰星宇1314</div>
-  <div class="sidebar-description">v  1.0.0</div>
+  <div class="sidebar-description"></div>
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>文章</div>
-    <div class="sidebar-state-number">6</div>
+    <div class="sidebar-state-number">7</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
-    <div class="sidebar-state-number">4</div>
+    <div class="sidebar-state-number">5</div>
   </div>
   <div class="sidebar-state-tag">
     <div>标签</div>
-    <div class="sidebar-state-number">5</div>
+    <div class="sidebar-state-number">6</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -511,6 +526,22 @@ cover: ‘bg_1_update_01.png’<br />
 
     </div>
     
+      <div class="site-search">
+        <div class="reimu-popup popup">
+          <div class="reimu-search">
+            <div class="reimu-search-input-icon"></div>
+            <div class="reimu-search-input" id="reimu-search-input"></div>
+            <div class="popup-btn-close"></div>
+          </div>
+          <div class="reimu-results">
+            <div id="reimu-stats"></div>
+            <div id="reimu-hits"></div>
+            <div id="reimu-pagination" class="reimu-pagination"></div>
+          </div>
+          <img class="reimu-bg" src="/images/reimu.png"/>
+        </div>
+      </div>
+    
     
 <script src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js" integrity="sha384-3gT&#x2F;vsepWkfz&#x2F;ff7PpWNUeMzeWoH3cDhm&#x2F;A8jM7ouoAK0&#x2F;fP&#x2F;9bcHHR5kHq2nf+e" crossorigin="anonymous"></script>
 
@@ -546,6 +577,10 @@ cover: ‘bg_1_update_01.png’<br />
 
 <script src="/js/pjax_script.js" data-pjax></script>
 
+
+
+  
+<script src="/js/generator_search.js" defer></script>
 
 
 
@@ -652,7 +687,7 @@ cover: ‘bg_1_update_01.png’<br />
         window.REIMU_POST = {
           author: "星辰星宇1314",
           title: "music-test",
-          url: "http://qsy1225.github.io/2025/02/11/music-test/",
+          url: "https://qsy1225.github.io/2025/02/11/music-test/",
           excerpt: "",
           description: "",
           stripContent: " const ap = new APlayer({ container: document.getElementById(‘aplayer’), audio: [{ name: ‘name’, artist: ‘artist’, url: ‘/music-test/bird_short.wav’, cover: ‘bg_1_update_01.png’ }] }); ",
@@ -777,12 +812,12 @@ cover: ‘bg_1_update_01.png’<br />
     <script>
       const ap = new APlayer({
         container: document.getElementById('aplayer'),
-        audio: [{"name":"多幸运","artist":"韩安旭","url":"/mt/how-lucky.mp3","cover":"/mt/how-lucky.webp","lrc":"/mt/how-lucky.txt"},{"name":"黑潮：深海觉醒选曲","artist":"无","url":"/mt/1.wav","cover":"/mt/1.png","lrc":"/mt/1.lrc"}] || [],
-        fixed: null || false,
-        autoplay: true || false,
+        audio: [{"name":"多幸运","artist":"韩安旭","url":"/mt/how-lucky.mp3","cover":"/mt/how-lucky.webp","lrc":"/mt/how-lucky.lrc"},{"name":"黑潮：深海觉醒选曲","artist":"无","url":"/mt/1.wav","cover":"/mt/1.png","lrc":"/mt/1.lrc"}] || [],
+        fixed: true || false,
+        autoplay: false || false,
         loop: 'none' || 'all',
         order: 'list' || 'list',
-        preload: 'metadata' || 'auto',
+        preload: 'auto' || 'auto',
         volume: null || 0.7,
         mutex: null || true,
         listFolded: null || false,

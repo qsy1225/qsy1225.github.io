@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>小站</title>
-  <icon>http://qsy1225.github.io/icon.png</icon>
+  <icon>https://qsy1225.github.io/icon.png</icon>
   
-  <link href="http://qsy1225.github.io/atom.xml" rel="self"/>
+  <link href="https://qsy1225.github.io/atom.xml" rel="self"/>
   
-  <link href="http://qsy1225.github.io/"/>
-  <updated>2025-02-14T07:53:30.046Z</updated>
-  <id>http://qsy1225.github.io/</id>
+  <link href="https://qsy1225.github.io/"/>
+  <updated>2025-02-15T06:26:44.046Z</updated>
+  <id>https://qsy1225.github.io/</id>
   
   <author>
     <name>星辰星宇1314</name>
@@ -17,9 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo Aurora主题修改页脚</title>
+    <link href="https://qsy1225.github.io/2025/02/14/aurora/"/>
+    <id>https://qsy1225.github.io/2025/02/14/aurora/</id>
+    <published>2025-02-14T15:08:17.000Z</published>
+    <updated>2025-02-15T06:26:44.046Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;开始与声明&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#开始与声明&quot;&gt;&lt;/a&gt; 开始与声明&lt;/h3&gt;
+&lt;p&gt;部分朋友在使用该主题时想去掉页脚的Powered by Hexo &amp;amp; Themed by Aurora。而Hexo</summary>
+        
+      
+    
+    
+    
+    <category term="Aurora" scheme="https://qsy1225.github.io/categories/Aurora/"/>
+    
+    
+    <category term="Aurora" scheme="https://qsy1225.github.io/tags/Aurora/"/>
+    
+  </entry>
+  
+  <entry>
     <title>music-test</title>
-    <link href="http://qsy1225.github.io/2025/02/11/music-test/"/>
-    <id>http://qsy1225.github.io/2025/02/11/music-test/</id>
+    <link href="https://qsy1225.github.io/2025/02/11/music-test/"/>
+    <id>https://qsy1225.github.io/2025/02/11/music-test/</id>
     <published>2025-02-11T14:56:55.000Z</published>
     <updated>2025-02-14T07:53:30.046Z</updated>
     
@@ -36,14 +62,14 @@
     
     
     
-    <category term="测试" scheme="http://qsy1225.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    <category term="测试" scheme="https://qsy1225.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>代码测试</title>
-    <link href="http://qsy1225.github.io/2025/02/06/code-test/"/>
-    <id>http://qsy1225.github.io/2025/02/06/code-test/</id>
+    <link href="https://qsy1225.github.io/2025/02/06/code-test/"/>
+    <id>https://qsy1225.github.io/2025/02/06/code-test/</id>
     <published>2025-02-06T08:06:45.000Z</published>
     <updated>2025-02-13T15:30:03.337Z</updated>
     
@@ -58,19 +84,19 @@
     
     
     
-    <category term="测试" scheme="http://qsy1225.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
+    <category term="测试" scheme="https://qsy1225.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
     
     
-    <category term="测试" scheme="http://qsy1225.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    <category term="测试" scheme="https://qsy1225.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>香蕉君视频</title>
-    <link href="http://qsy1225.github.io/2025/02/05/banana/"/>
-    <id>http://qsy1225.github.io/2025/02/05/banana/</id>
+    <link href="https://qsy1225.github.io/2025/02/05/banana/"/>
+    <id>https://qsy1225.github.io/2025/02/05/banana/</id>
     <published>2025-02-05T11:53:02.000Z</published>
-    <updated>2025-02-14T07:57:02.411Z</updated>
+    <updated>2025-02-14T14:15:18.762Z</updated>
     
     
       
@@ -86,17 +112,17 @@
     
     
     
-    <category term="视频" scheme="http://qsy1225.github.io/categories/%E8%A7%86%E9%A2%91/"/>
+    <category term="视频" scheme="https://qsy1225.github.io/categories/%E8%A7%86%E9%A2%91/"/>
     
     
-    <category term="香蕉君" scheme="http://qsy1225.github.io/tags/%E9%A6%99%E8%95%89%E5%90%9B/"/>
+    <category term="香蕉君" scheme="https://qsy1225.github.io/tags/%E9%A6%99%E8%95%89%E5%90%9B/"/>
     
   </entry>
   
   <entry>
     <title>公式测试</title>
-    <link href="http://qsy1225.github.io/2025/02/05/test/"/>
-    <id>http://qsy1225.github.io/2025/02/05/test/</id>
+    <link href="https://qsy1225.github.io/2025/02/05/test/"/>
+    <id>https://qsy1225.github.io/2025/02/05/test/</id>
     <published>2025-02-05T07:22:10.000Z</published>
     <updated>2025-02-11T10:18:37.288Z</updated>
     
@@ -111,17 +137,44 @@
     
     
     
-    <category term="测试" scheme="http://qsy1225.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
+    <category term="测试" scheme="https://qsy1225.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
     
     
-    <category term="测试" scheme="http://qsy1225.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    <category term="测试" scheme="https://qsy1225.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>无</title>
+    <link href="https://qsy1225.github.io/2025/02/04/sth%20to%20talk/"/>
+    <id>https://qsy1225.github.io/2025/02/04/sth%20to%20talk/</id>
+    <published>2025-02-04T12:59:36.000Z</published>
+    <updated>2025-02-15T05:54:32.553Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+  &lt;p&gt;我讨厌温柔的女孩子。温柔的女孩子其实对所有人都温柔，我却会误以为只对我温柔，然后就沾沾自喜得意忘形，最后闹得不欢而散，双方都受到伤害。所以我才讨厌温柔的女孩子。&lt;/p&gt;
+  &lt;footer&gt;—&lt;cite&gt;比企谷</summary>
+        
+      
+    
+    
+    
+    <category term="闲言碎语" scheme="https://qsy1225.github.io/categories/%E9%97%B2%E8%A8%80%E7%A2%8E%E8%AF%AD/"/>
+    
+    
+    <category term="闲言碎语" scheme="https://qsy1225.github.io/tags/%E9%97%B2%E8%A8%80%E7%A2%8E%E8%AF%AD/"/>
     
   </entry>
   
   <entry>
     <title>md相关使用代码</title>
-    <link href="http://qsy1225.github.io/2025/02/02/related-to-md/"/>
-    <id>http://qsy1225.github.io/2025/02/02/related-to-md/</id>
+    <link href="https://qsy1225.github.io/2025/02/02/related-to-md/"/>
+    <id>https://qsy1225.github.io/2025/02/02/related-to-md/</id>
     <published>2025-02-02T15:44:10.000Z</published>
     <updated>2025-02-11T09:05:17.661Z</updated>
     
@@ -136,39 +189,12 @@
     
     
     
-    <category term="Markdown" scheme="http://qsy1225.github.io/categories/Markdown/"/>
+    <category term="Markdown" scheme="https://qsy1225.github.io/categories/Markdown/"/>
     
     
-    <category term="Markdown" scheme="http://qsy1225.github.io/tags/Markdown/"/>
+    <category term="Markdown" scheme="https://qsy1225.github.io/tags/Markdown/"/>
     
-    <category term="说明" scheme="http://qsy1225.github.io/tags/%E8%AF%B4%E6%98%8E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>无</title>
-    <link href="http://qsy1225.github.io/2025/02/02/sth%20to%20talk/"/>
-    <id>http://qsy1225.github.io/2025/02/02/sth%20to%20talk/</id>
-    <published>2025-02-02T12:59:36.000Z</published>
-    <updated>2025-02-08T13:25:52.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-  &lt;p&gt;我讨厌温柔的女孩子。温柔的女孩子其实对所有人都温柔，我却会误以为只对我温柔，然后就沾沾自喜得意忘形，最后闹得不欢而散，双方都受到伤害。所以我才讨厌温柔的女孩子。&lt;/p&gt;
-  &lt;footer&gt;——&lt;cite&gt;比企谷</summary>
-        
-      
-    
-    
-    
-    <category term="闲言碎语" scheme="http://qsy1225.github.io/categories/%E9%97%B2%E8%A8%80%E7%A2%8E%E8%AF%AD/"/>
-    
-    
-    <category term="闲言碎语" scheme="http://qsy1225.github.io/tags/%E9%97%B2%E8%A8%80%E7%A2%8E%E8%AF%AD/"/>
+    <category term="说明" scheme="https://qsy1225.github.io/tags/%E8%AF%B4%E6%98%8E/"/>
     
   </entry>
   
