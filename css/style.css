@@ -1,21 +1,21 @@
 :root {
-  --red-0: #f00;
-  --red-1: #ff5252;
-  --red-2: #ff7c7c;
-  --red-3: #ffafaf;
-  --red-4: #ffd0d0;
-  --red-5: #ffe4e4;
-  --red-5-5: #ffecec;
-  --red-6: #fff3f3;
-  --grey-9: #999;
-  --grey-7: #777;
+  --red-0: #3bf;
+  --red-1: #6cb6d6;
+  --red-2: #71b8d8;
+  --red-3: #75bcd8;
+  --red-4: #6cb6d6;
+  --red-5: #fff;
+  --red-5-5: #fff;
+  --red-6: #75bcd8;
+  --grey-9: #1a1a1a;
+  --grey-7: #1a1a1a;
   --color-archive-year: #000;
-  --color-default: #555;
-  --color-border: var(--red-3);
+  --color-default: #1a1a1a;
+  --color-border: #75bcd8;
   --color-link: var(--red-1);
-  --color-background: #eee;
+  --color-background: #e9fafc;
   --color-code-background: #f5f5f5;
-  --color-header-background: rgba(255,255,255,0.9);
+  --color-header-background: #fff;
   --color-footer-background: #fff;
   --color-mobile-nav-background: #fff;
   --color-wrap: #fff;
@@ -24,8 +24,8 @@
   --color-meta-shadow: var(--red-6);
   --color-hover-shadow: rgba(150,150,150,0.1);
   --color-h2-after: var(--red-1);
-  --color-red-6-shadow: rgba(255,78,78,0.6);
-  --color-red-3-shadow: rgba(255,78,78,0.3);
+  --color-red-6-shadow: #3bf;
+  --color-red-3-shadow: #3bf;
   --highlight-nav: #e6e6e6;
   --highlight-scrollbar: #d6d6d6;
   --highlight-background: #f7f7f7;
@@ -48,20 +48,26 @@
   --top-icon: url("../images/taichi.png");
 }
 [data-theme="dark"]:root {
-  --red-0: var(--red-1);
-  --red-4: rgba(255,208,208,0.5);
+  --red-0: #61a1d3;
+  --red-1: #6cb6d6;
+  --red-2: #71b8d8;
+  --red-3: #75bcd8;
+  --red-4: fff;
   --red-5: rgba(255,228,228,0.2);
   --red-5-5: rgba(255,236,236,0.1);
   --red-6: rgba(255,243,243,0.2);
+  --grey-7: #eee;
+  --grey-9: #eee;
   --color-archive-year: #999;
-  --color-default: #999;
-  --color-border: var(--red-5);
-  --color-background: #21252b;
+  --color-default: #fff;
+  --color-border: #f0f;
+  --color-background: #5f91b0;
   --color-code-background: rgba(232,232,232,0.1);
-  --color-header-background: #222;
+  --color-header-background: #466488;
   --color-footer-background: #21252b;
   --color-mobile-nav-background: #21252b;
-  --color-wrap: #272b30;
+  --color-wrap: #2570a1;
+  --color-sticky: #eee;
   --color-h2-border: #47474a;
   --color-meta-shadow: rgba(0,0,0,0.2);
   --color-hover-shadow: rgba(0,0,0,0.2);
@@ -81,7 +87,7 @@
   --highlight-purple: #dcbdfb;
 }
 [data-theme="dark"]:root img {
-  filter: brightness(70%);
+  filter: brightness(75%);
 }
 [data-theme="dark"]:root .pswp__img {
   opacity: 1;
@@ -493,7 +499,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Mulish','Noto Serif SC', '-apple-system','PingFang SC','Microsoft YaHei','sans-serif';
+  font-family: 'Mulish','Noto Serif SC','Sour Gummy', '-apple-system','PingFang SC','Microsoft YaHei','sans-serif';
   font-weight: 700;
 }
 input,
@@ -519,7 +525,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   text-size-adjust: 100%;
-  font-family: 'Mulish','Noto Serif SC', '-apple-system','PingFang SC','Microsoft YaHei','sans-serif';
+  font-family: 'Mulish','Noto Serif SC','Sour Gummy', '-apple-system','PingFang SC','Microsoft YaHei','sans-serif';
   transition: background 1s;
 }
 body ::selection {
@@ -663,7 +669,7 @@ a {
   top: -80px;
 }
 #header-title {
-  font-family: 'Mulish','Noto Serif SC', '-apple-system','PingFang SC','Microsoft YaHei','sans-serif';
+  font-family: 'Mulish','Noto Serif SC','Sour Gummy', '-apple-system','PingFang SC','Microsoft YaHei','sans-serif';
   font-weight: 700;
   text-align: center;
   position: absolute;
@@ -2090,7 +2096,7 @@ a {
 .article-entry .gist .gist-file .gist-meta {
   background: var(--highlight-background);
   color: var(--highlight-comment);
-  font: 0.85em 'Mulish','Noto Serif SC', '-apple-system','PingFang SC','Microsoft YaHei','sans-serif';
+  font: 0.85em 'Mulish','Noto Serif SC','Sour Gummy', '-apple-system','PingFang SC','Microsoft YaHei','sans-serif';
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
@@ -2604,7 +2610,7 @@ pre .javascript .function {
   color: var(--grey-9);
   font-size: 16px;
   vertical-align: middle;
-  font-family: 'Mulish','Noto Serif SC', '-apple-system','PingFang SC','Microsoft YaHei','sans-serif';
+  font-family: 'Mulish','Noto Serif SC','Sour Gummy', '-apple-system','PingFang SC','Microsoft YaHei','sans-serif';
 }
 .reimu-search-input input[type=search]::-webkit-search-cancel-button {
   -webkit-appearance: none;
@@ -3115,7 +3121,7 @@ pre .javascript .function {
   border-radius: 10px !important;
   background: var(--color-wrap) !important;
   transition: all 0.3s;
-  font-family: 'Mulish','Noto Serif SC', '-apple-system','PingFang SC','Microsoft YaHei','sans-serif' !important;
+  font-family: 'Mulish','Noto Serif SC','Sour Gummy', '-apple-system','PingFang SC','Microsoft YaHei','sans-serif' !important;
 }
 .aplayer button:hover path,
 .aplayer .aplayer-icon:hover path {
