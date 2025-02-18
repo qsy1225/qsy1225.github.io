@@ -6,7 +6,7 @@
   <link href="https://qsy1225.github.io/atom.xml" rel="self"/>
   
   <link href="https://qsy1225.github.io/"/>
-  <updated>2025-02-17T05:14:31.098Z</updated>
+  <updated>2025-02-18T16:10:26.681Z</updated>
   <id>https://qsy1225.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo reimu主题问题及解答</title>
+    <link href="https://qsy1225.github.io/reimu-q/"/>
+    <id>https://qsy1225.github.io/reimu-q/</id>
+    <published>2025-02-18T13:23:04.000Z</published>
+    <updated>2025-02-18T16:10:26.681Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;此文章记录并解答在使用reimu主题时可能遇到的问题。&lt;/p&gt;
+&lt;h3 id=&quot;声明&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#声明&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://qsy1225.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://qsy1225.github.io/tags/Hexo/"/>
+    
+    <category term="reimu" scheme="https://qsy1225.github.io/tags/reimu/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo Aurora主题修改页脚</title>
