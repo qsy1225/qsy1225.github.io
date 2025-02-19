@@ -6,7 +6,7 @@
   <link href="https://qsy1225.github.io/atom.xml" rel="self"/>
   
   <link href="https://qsy1225.github.io/"/>
-  <updated>2025-02-18T16:10:26.681Z</updated>
+  <updated>2025-02-19T13:54:10.661Z</updated>
   <id>https://qsy1225.github.io/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>reimu主题安装教程</title>
+    <link href="https://qsy1225.github.io/reimu-setup/"/>
+    <id>https://qsy1225.github.io/reimu-setup/</id>
+    <published>2025-02-19T12:33:43.000Z</published>
+    <updated>2025-02-19T13:54:10.661Z</updated>
+    
+    
+    <summary type="html">本文介绍关于如何安装reimu主题，以及如何更新。</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://qsy1225.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://qsy1225.github.io/tags/Hexo/"/>
+    
+    <category term="reimu" scheme="https://qsy1225.github.io/tags/reimu/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo reimu主题问题及解答</title>
     <link href="https://qsy1225.github.io/reimu-q/"/>
     <id>https://qsy1225.github.io/reimu-q/</id>
     <published>2025-02-18T13:23:04.000Z</published>
-    <updated>2025-02-18T16:10:26.681Z</updated>
+    <updated>2025-02-19T13:38:31.775Z</updated>
     
     
       
