@@ -13,10 +13,10 @@
 
   
 
-  <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_bq08450reo';window.REIMU_CONFIG.clipboard_tips = {"success":"复制成功(*^▽^*)","fail":"复制失败 (ﾟ⊿ﾟ)ﾂ","copyright":{"enable":false,"count":50,"content":"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！"}};window.REIMU_CONFIG.code_block = {"expand":true};</script>
+  <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_bq08450reo';window.REIMU_CONFIG.clipboard_tips = {"success":"复制成功(*^▽^*)","fail":"复制失败 (ﾟ⊿ﾟ)ﾂ","copyright":{"enable":false,"count":50,"content":"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！"}};window.REIMU_CONFIG.code_block = {"expand":true};window.REIMU_CONFIG.base = 'https://qsy1225.github.io';window.REIMU_CONFIG.i18n_languages = ["en","ja"];</script>
   
   <title>
-    music-test |
+    How to Customize the Footer in Hexo Aurora Theme |
     
     小站
   </title>
@@ -31,24 +31,32 @@
 
   
   
-    <meta name="description" content="const ap &#x3D; new APlayer({ container: document.getElementById(‘aplayer’), audio: [{ name: ‘name’, artist: ‘artist’, url: ‘&#x2F;music-test&#x2F;bird_short.wav’, cover: ‘bg_1_update_01.png’ }] });">
+    <meta name="description" content="Getting Started &amp; Declaration Some friends want to remove the “Powered by Hexo &amp; Themed by Aurora” footer when using the Aurora theme. However, the official documentation for Hexo Aurora does">
 <meta property="og:type" content="article">
-<meta property="og:title" content="music-test">
-<meta property="og:url" content="https://qsy1225.github.io/music-test/index.html">
+<meta property="og:title" content="How to Customize the Footer in Hexo Aurora Theme">
+<meta property="og:url" content="https://qsy1225.github.io/en/Hexo-Aurora/index.html">
 <meta property="og:site_name" content="小站">
-<meta property="og:description" content="const ap &#x3D; new APlayer({ container: document.getElementById(‘aplayer’), audio: [{ name: ‘name’, artist: ‘artist’, url: ‘&#x2F;music-test&#x2F;bird_short.wav’, cover: ‘bg_1_update_01.png’ }] });">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-02-11T14:56:55.000Z">
-<meta property="article:modified_time" content="2025-02-14T07:53:30.046Z">
+<meta property="og:description" content="Getting Started &amp; Declaration Some friends want to remove the “Powered by Hexo &amp; Themed by Aurora” footer when using the Aurora theme. However, the official documentation for Hexo Aurora does">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://qsy1225.github.io/pp/aurora/p4.png">
+<meta property="og:image" content="https://qsy1225.github.io/pp/aurora/p8.png">
+<meta property="og:image" content="https://qsy1225.github.io/pp/aurora/p1.png">
+<meta property="og:image" content="https://qsy1225.github.io/pp/aurora/p14.png">
+<meta property="og:image" content="https://qsy1225.github.io/pp/aurora/p15.png">
+<meta property="og:image" content="https://qsy1225.github.io/pp/aurora/p12.png">
+<meta property="og:image" content="https://qsy1225.github.io/pp/aurora/p13.png">
+<meta property="article:published_time" content="2025-02-25T15:08:17.000Z">
+<meta property="article:modified_time" content="2025-02-25T15:18:37.932Z">
 <meta property="article:author" content="星辰星宇1314">
-<meta property="article:tag" content="测试">
+<meta property="article:tag" content="Aurora">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://qsy1225.github.io/pp/aurora/p4.png">
   
   
     <link rel="alternate" href="/atom.xml" title="小站" type="application/atom+xml">
   
   
-    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="shortcut icon" href="/images/favicon.png">
   
   
 <link rel="stylesheet" href="/css/style.css">
@@ -96,7 +104,7 @@
     <div class="spinner-box">
       <div class="loading-taichi">
         
-          <img src="/avatar.webp" alt="loading" />
+          <img src="/load.png" alt="loading" />
         
       </div>
       <div class="loading-word">加载中.....</div>
@@ -142,28 +150,28 @@
           <div class="main-nav-icon icon rotate">
             &#xe62b;
           </div>
-          <a class="main-nav-link" href="/">首页</a>
+          <a class="main-nav-link" href="/en/">Home</a>
         </span>
       
         <span class="main-nav-link-wrap">
           <div class="main-nav-icon icon rotate">
             &#xe62b;
           </div>
-          <a class="main-nav-link" href="/archives">归档</a>
+          <a class="main-nav-link" href="/en/archives">Archives</a>
         </span>
       
         <span class="main-nav-link-wrap">
           <div class="main-nav-icon icon rotate">
             &#xe62b;
           </div>
-          <a class="main-nav-link" href="/about">关于</a>
+          <a class="main-nav-link" href="/en/about">About</a>
         </span>
       
         <span class="main-nav-link-wrap">
           <div class="main-nav-icon icon rotate">
             &#xe62b;
           </div>
-          <a class="main-nav-link" href="/download">下载</a>
+          <a class="main-nav-link" href="/en/download">Download</a>
         </span>
       
     
@@ -171,11 +179,11 @@
   </nav>
   <nav id="sub-nav">
     
-      <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS 订阅" target="_blank"></a>
+      <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed" target="_blank"></a>
     
     
     
-      <a id="nav-search-btn" class="nav-icon popup-trigger" title="搜索"></a>
+      <a id="nav-search-btn" class="nav-icon popup-trigger" title="Search"></a>
     
   </nav>
   
@@ -184,13 +192,13 @@
       <div class="custom-dropdown">
         <div class="select-selected" id="select-selected">
           <span id="nav-language-btn" class="nav-icon" style="padding: 0 20px 0 0"></span>
-          <span id="selected-lang">简体中文</span>
+          <span id="selected-lang">English</span>
         </div>
         <ul class="select-items" id="select-items">
           
-            <li data-value="zh-CN" class="selected">简体中文</li>
+            <li data-value="zh-CN" >简体中文</li>
           
-            <li data-value="en" >English</li>
+            <li data-value="en" class="selected">English</li>
           
             <li data-value="ja" >日本語</li>
           
@@ -210,11 +218,11 @@
           item.addEventListener("click", () => {
             const langMap = {};
             
-              langMap['zh-CN'] = '/music-test/';
+              langMap['zh-CN'] = '/Hexo-Aurora/';
             
-              langMap['en'] = '/en/music-test/';
+              langMap['en'] = '/en/Hexo-Aurora/';
             
-              langMap['ja'] = '/ja/music-test/';
+              langMap['ja'] = '/ja/Hexo-Aurora/';
             
             selectedLang.textContent = item.textContent;
             selectItems.classList.remove("show");
@@ -237,12 +245,8 @@
 </div>
 <header id="header">
   
-    <picture>
-      
-    </picture>
-    
-      <img fetchpriority="high" src="/images/banner.webp" alt="music-test">
-    
+    <picture></picture>
+    <img fetchpriority="high" src="/pp/aurora/cover.jpg" alt="How to Customize the Footer in Hexo Aurora Theme">
   
   <div id="header-outer">
     <div id="header-title">
@@ -250,7 +254,7 @@
         
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">music-test</h1>
+            <h1 data-aos="slide-up">How to Customize the Footer in Hexo Aurora Theme</h1>
           </a>
         
       
@@ -274,10 +278,10 @@
     <div class="sidebar-wrap" data-aos="fade-up">
       
         <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
-  <h3 class="toc-title">文章目录</h3>
+  <h3 class="toc-title">Contents</h3>
   <div class="sidebar-toc-wrapper toc-div-class" >
       
-        
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#getting-started-declaration"><span class="toc-number">1.</span> <span class="toc-text"> Getting Started &amp; Declaration</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#locating-the-relevant-files"><span class="toc-number">1.1.</span> <span class="toc-text"> Locating the Relevant Files</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#modifications"><span class="toc-number">1.2.</span> <span class="toc-text"> Modifications</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#1-remove-only-themed-by-aurora"><span class="toc-number">1.2.1.</span> <span class="toc-text"> 1. Remove Only “Themed by Aurora”</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-remove-both-powered-by-and-themed-by"><span class="toc-number">1.2.2.</span> <span class="toc-text"> 2. Remove Both “Powered by” and “Themed by”</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3-line-break-for-all-rights-reserved"><span class="toc-number">1.2.3.</span> <span class="toc-text"> 3. Line Break for “All Rights Reserved”</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#reference"><span class="toc-number">2.</span> <span class="toc-text"> Reference</span></a></li></ol>
       
   </div>
 </div>
@@ -289,15 +293,15 @@
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>文章</div>
-    <div class="sidebar-state-number">9</div>
+    <div>Post</div>
+    <div class="sidebar-state-number">11</div>
   </div>
   <div class="sidebar-state-category">
-    <div>分类</div>
+    <div>Category</div>
     <div class="sidebar-state-number">6</div>
   </div>
   <div class="sidebar-state-tag">
-    <div>标签</div>
+    <div>Tag</div>
     <div class="sidebar-state-number">8</div>
   </div>
 </div>
@@ -308,35 +312,35 @@
   
     
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/" aria-label="首页"></a>
+        <a class="sidebar-menu-link-dummy" href="/en/" aria-label="Home"></a>
         <div class="sidebar-menu-icon icon rotate">
           &#xe62b;
         </div>
-        <div class="sidebar-menu-link">首页</div>
+        <div class="sidebar-menu-link">Home</div>
       </div>
     
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="归档"></a>
+        <a class="sidebar-menu-link-dummy" href="/en/archives" aria-label="Archives"></a>
         <div class="sidebar-menu-icon icon rotate">
           &#xe62b;
         </div>
-        <div class="sidebar-menu-link">归档</div>
+        <div class="sidebar-menu-link">Archives</div>
       </div>
     
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/about" aria-label="关于"></a>
+        <a class="sidebar-menu-link-dummy" href="/en/about" aria-label="About"></a>
         <div class="sidebar-menu-icon icon rotate">
           &#xe62b;
         </div>
-        <div class="sidebar-menu-link">关于</div>
+        <div class="sidebar-menu-link">About</div>
       </div>
     
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/download" aria-label="下载"></a>
+        <a class="sidebar-menu-link-dummy" href="/en/download" aria-label="Download"></a>
         <div class="sidebar-menu-icon icon rotate">
           &#xe62b;
         </div>
-        <div class="sidebar-menu-link">下载</div>
+        <div class="sidebar-menu-link">Download</div>
       </div>
     
   
@@ -357,17 +361,21 @@
   </div>
 </aside>
 
-          <section id="main"><article id="post-music-test" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+          <section id="main"><article id="post-aurora-en" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-inner" data-aos="fade-up">
     <div class="article-meta">
       <div class="article-date">
   <span class="article-date-link" data-aos="zoom-in">
-    <time datetime="2025-02-11T14:56:55.000Z" itemprop="datePublished">2025-02-11</time>
-    <time style="display: none;" id="post-update-time">2025-02-14</time>
+    <time datetime="2025-02-25T15:08:17.000Z" itemprop="datePublished">2025-02-25</time>
+    <time style="display: none;" id="post-update-time">2025-02-25</time>
   </span>
 </div>
 
       
+  <div class="article-category">
+    <a class="article-category-link" href="/en/categories/Aurora/" data-aos="zoom-in">Aurora</a>
+  </div>
+
 
     </div>
     <div class="hr-line"></div>
@@ -376,28 +384,97 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
       
-        <aplayer name="sn" artist="adk" url="/mt/how-lucky.mp3" cover="how-lucky.webp" lrc="/mt/how-lucky.txt">
-<p>const ap = new APlayer({<br />
-container: document.getElementById(‘aplayer’),<br />
-audio: [{<br />
-name: ‘name’,<br />
-artist: ‘artist’,<br />
-url: ‘/music-test/bird_short.wav’,<br />
-cover: ‘bg_1_update_01.png’<br />
-}]<br />
-});</p>
+        <h3 id="getting-started-declaration"><a class="markdownIt-Anchor" href="#getting-started-declaration"></a> Getting Started &amp; Declaration</h3>
+<p>Some friends want to remove the “Powered by Hexo &amp; Themed by Aurora” footer when using the Aurora theme. However, the <a target="_blank" rel="noopener" href="https://aurora.tridiamond.tech/cn/">official documentation</a> for Hexo Aurora doesn’t mention footer customization, and there’s no <code>footer</code> section in the <code>config.aurora.yml</code> file.</p>
+<p>Here’s how to do it.</p>
+<p><strong>Disclaimer:</strong><br />
+I’m not a professional, so there may be inaccuracies in this tutorial. Please proceed with caution.</p>
+<p>This guide is based on Aurora v2.5.3 installed via npm.<br />
+<strong>Back up your site before making changes!</strong><br />
+If you encounter issues, feel free to comment—I’ll help if I can.</p>
+<hr />
+<h4 id="locating-the-relevant-files"><a class="markdownIt-Anchor" href="#locating-the-relevant-files"></a> Locating the Relevant Files</h4>
+<p><strong>Original Footer:</strong><br />
+<img src="/pp/aurora/p4.png" width=60% height=75% /></p>
+<ol>
+<li>
+<p>Navigate to your blog’s root directory.</p>
+</li>
+<li>
+<p>Go to: <code>node_modules/hexo-theme-aurora/layout/index.ejs</code> and open the file.<br />
+<img src="/pp/aurora/p8.png" width=60% height=75% /></p>
+</li>
+<li>
+<p>Look for the script tag. The filename (e.g., <code>120aa8f8.js</code>) may vary but follows the same pattern:<br />
+<img src="/pp/aurora/p1.png" width=60% height=75% /></p>
+</li>
+<li>
+<p>Return to the parent directory and navigate to <code>source/static/js/</code>.</p>
+</li>
+<li>
+<p>Right-click the JavaScript file (e.g., <code>120aa8f8.js</code>) and open it with a text editor (Notepad, Sublime Text, etc.).</p>
+</li>
+<li>
+<p>Use <strong>Ctrl+F</strong> (or <strong>Edit &gt; Find</strong>) to search for <code>Powered</code>. You’ll find the relevant code:</p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="title function_">v</span>(<span class="string">&quot;span&quot;</span>,<span class="variable constant_">N6</span>,[<span class="title function_">v</span>(<span class="string">&quot;div&quot;</span>,<span class="variable constant_">D6</span>,[<span class="title function_">v</span>(<span class="string">&quot;div&quot;</span>,<span class="variable constant_">F6</span>,[<span class="title function_">v</span>(<span class="string">&quot;ul&quot;</span>,j6,[<span class="title function_">v</span>(<span class="string">&quot;li&quot;</span>,<span class="literal">null</span>,[<span class="title class_">Ve</span>(<span class="string">&quot; Copyright © 2019 - &quot;</span>+<span class="title function_">K</span>(e.<span class="property">currentYear</span>)+<span class="string">&quot; &quot;</span>,<span class="number">1</span>),<span class="title function_">v</span>(<span class="string">&quot;b&quot;</span>,<span class="variable constant_">B6</span>,<span class="title function_">K</span>(e.<span class="property">themeConfig</span>.<span class="property">site</span>.<span class="property">author</span>),<span class="number">1</span>),<span class="title class_">Ve</span>(<span class="string">&quot; . All Rights Reserved. &quot;</span>)]),<span class="title function_">v</span>(<span class="string">&quot;li&quot;</span>,<span class="literal">null</span>,[<span class="title class_">Ve</span>(<span class="string">&quot; Powered by &quot;</span>),<span class="variable constant_">Z6</span>,<span class="title class_">Ve</span>(<span class="string">&quot; &amp; Themed by &quot;</span>),<span class="title function_">v</span>(<span class="string">&quot;a&quot;</span>,<span class="variable constant_">H6</span>,[<span class="title function_">v</span>(<span class="string">&quot;b&quot;</span>,<span class="variable constant_">U6</span>,<span class="string">&quot; Aurora v&quot;</span>+<span class="title function_">K</span>(e.<span class="property">themeConfig</span>.<span class="property">version</span>),<span class="number">1</span>)])])</span><br></pre></td></tr></table></figure>
+<hr />
+<h4 id="modifications"><a class="markdownIt-Anchor" href="#modifications"></a> Modifications</h4>
+<h5 id="1-remove-only-themed-by-aurora"><a class="markdownIt-Anchor" href="#1-remove-only-themed-by-aurora"></a> 1. Remove Only “Themed by Aurora”</h5>
+<p>Delete the marked code:</p>
+<pre><code class="javascript">,v(&quot;a&quot;,H6,[v(&quot;b&quot;,U6,&quot; Aurora v&quot;+K(e.themeConfig.version),1)])
+</code></pre>
+<p><strong>Result:</strong><br />
+<img src="/pp/aurora/p14.png" width=60% height=75% /></p>
+<hr />
+<h5 id="2-remove-both-powered-by-and-themed-by"><a class="markdownIt-Anchor" href="#2-remove-both-powered-by-and-themed-by"></a> 2. Remove Both “Powered by” and “Themed by”</h5>
+<p>Delete the entire line:</p>
+<pre><code class="javascript">,v(&quot;li&quot;,null,[Ve(&quot; Powered by &quot;),Z6,Ve(&quot; &amp; Themed by &quot;),v(&quot;a&quot;,H6,[v(&quot;b&quot;,U6,&quot; Aurora v&quot;+K(e.themeConfig.version),1)])])
+</code></pre>
+<p><strong>Result:</strong><br />
+<img src="/pp/aurora/p15.png" width=60% height=75% /></p>
+<p><strong>Save the file</strong> after editing, then run:</p>
+<pre><code class="bash">hexo cl
+hexo g
+hexo s
+</code></pre>
+<p>Check locally. If everything works, deploy with <code>hexo d</code>.</p>
+<p><strong>Critical Note:</strong><br />
+Ensure you <strong>remove the correct commas</strong> (<code>,</code>). Leaving extra commas may cause infinite page loading or layout issues!</p>
+<hr />
+<h5 id="3-line-break-for-all-rights-reserved"><a class="markdownIt-Anchor" href="#3-line-break-for-all-rights-reserved"></a> 3. Line Break for “All Rights Reserved”</h5>
+<p>To move “All Rights Reserved” to a new line:</p>
+<p><strong>Original Code:</strong></p>
+<pre><code class="javascript">Ve(&quot; . All Rights Reserved. &quot;)
+</code></pre>
+<p><strong>Modified Code:</strong></p>
+<pre><code class="javascript">Ve(&quot;.&quot;),v(&quot;br&quot;),Ve(&quot; All Rights Reserved. &quot;)
+</code></pre>
+<p><strong>Effect:</strong><br />
+<img src="/pp/aurora/p12.png" width=40% height=75% /></p>
+<p>Add a space if the period appears too close:</p>
+<pre><code class="javascript">Ve(&quot;. &quot;),v(&quot;br&quot;),Ve(&quot;All Rights Reserved. &quot;)
+</code></pre>
+<p><strong>Effect:</strong><br />
+<img src="/pp/aurora/p13.png" width=40% height=75% /></p>
+<hr />
+<h3 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h3>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://gongxuanzhang.github.io/post/aurora%E5%88%A0%E9%99%A4%E8%AF%84%E8%AE%BA%E4%BE%A7%E8%BE%B9%E6%A0%8F">Removing Aurora’s Comment Sidebar (Chinese)</a></li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
       
         <blockquote class="article-copyright">
-    <p><strong><span class="icon-user icon"></span>本文作者：</strong>星辰星宇1314 @ 小站</p>
-    <p><strong><span class="icon-link icon"></span>本文链接：</strong><a href="https://qsy1225.github.io/music-test/">https://qsy1225.github.io/music-test/</a></p>
-    <p><strong><span class="icon-pencil icon"></span>本文标题：</strong>「music-test」</p>
+    <p><strong><span class="icon-user icon"></span>Author: </strong>星辰星宇1314 @ 小站</p>
+    <p><strong><span class="icon-link icon"></span>Permalink: </strong><a href="https://qsy1225.github.io/en/Hexo-Aurora/">https://qsy1225.github.io/en/Hexo-Aurora/</a></p>
+    <p><strong><span class="icon-pencil icon"></span>Title: </strong>「How to Customize the Footer in Hexo Aurora Theme」</p>
     
     
-    <p><strong><span class="icon-copyright icon"></span>本文版权：</strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener external nofollow noreferrer" target="_blank"><span class="icon-creative-commons"></span>BY-NC-SA</a> 许可协议。转载请注明出处！</p>
+    <p><strong><span class="icon-copyright icon"></span>License: </strong>All articles on this blog are licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener external nofollow noreferrer" target="_blank"><span class="icon-creative-commons"></span>BY-NC-SA</a> license agreement unless otherwise stated. Please indicate the source when reprinting!</p>
     <span class="icon-creative-commons article-copyright-bg"></span>
   </blockquote>
       
@@ -405,16 +482,16 @@ cover: ‘bg_1_update_01.png’<br />
       
       
       
-        <a data-aos="zoom-in" href="/music-test/#comments" class="article-comment-link">
-          <span class="post-comments-count waline-comment-count" data-path="/music-test/" itemprop="commentCount"></span>
-          留言
+        <a data-aos="zoom-in" href="/en/Hexo-Aurora/#comments" class="article-comment-link">
+          <span class="post-comments-count waline-comment-count" data-path="/en/Hexo-Aurora/" itemprop="commentCount"></span>
+          Comments
         </a>
       
       
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in"><a class="article-tag-list-link" href="/tags/%E6%B5%8B%E8%AF%95/" rel="tag">测试</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in"><a class="article-tag-list-link" href="/en/tags/Aurora/" rel="tag">Aurora</a></li></ul>
 
 
     </footer>
@@ -422,32 +499,37 @@ cover: ‘bg_1_update_01.png’<br />
   
   <nav id="article-nav" data-aos="fade-up">
     
+      
       <div class="article-nav-link-wrap article-nav-link-left">
         
-          <img data-src="/pp/aurora/cover.jpg" data-sizes="auto" alt="Hexo Aurora主题修改页脚" class="lazyload">
+          
+          
+            <img data-src="/covers/bg_1_story_cg_Y0531.png" data-sizes="auto" alt="测试" class="lazyload">
+          
         
-        <a href="/aurora/"></a>
-        <div class="article-nav-caption">前一篇</div>
+        <a href="/en/undefined/"></a>
+        <div class="article-nav-caption">Newer</div>
         <h3 class="article-nav-title">
           
-            Hexo Aurora主题修改页脚
+            测试
           
         </h3>
       </div>
+    
     
     
     <div class="article-nav-link-wrap article-nav-link-right">
       
         
         
-          <img data-src="/covers/bg_1_story_cg_Y0531.png" data-sizes="auto" alt="代码测试" class="lazyload">
+          <img data-src="/covers/bg_1_story_cg_Y0531.png" data-sizes="auto" alt="测试" class="lazyload">
         
       
-      <a href="/code-test/"></a>
-      <div class="article-nav-caption">后一篇</div>
+      <a href="/en/undefined/"></a>
+      <div class="article-nav-caption">Older</div>
       <h3 class="article-nav-title">
         
-          代码测试
+          测试
         
       </h3>
     </div>
@@ -484,10 +566,10 @@ cover: ‘bg_1_update_01.png’<br />
     
       <div>
         <span class="icon-brush"></span>
-        3.2k
+        4.2k
         &nbsp;|&nbsp;
         <span class="icon-coffee"></span>
-        00:16
+        00:20
       </div>
     
     
@@ -516,10 +598,10 @@ cover: ‘bg_1_update_01.png’<br />
   <div class="sidebar-wrap">
     
       <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
-  <h3 class="toc-title">文章目录</h3>
+  <h3 class="toc-title">Contents</h3>
   <div class="sidebar-toc-wrapper toc-div-class" >
       
-        
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#getting-started-declaration"><span class="toc-number">1.</span> <span class="toc-text"> Getting Started &amp; Declaration</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#locating-the-relevant-files"><span class="toc-number">1.1.</span> <span class="toc-text"> Locating the Relevant Files</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#modifications"><span class="toc-number">1.2.</span> <span class="toc-text"> Modifications</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#1-remove-only-themed-by-aurora"><span class="toc-number">1.2.1.</span> <span class="toc-text"> 1. Remove Only “Themed by Aurora”</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-remove-both-powered-by-and-themed-by"><span class="toc-number">1.2.2.</span> <span class="toc-text"> 2. Remove Both “Powered by” and “Themed by”</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3-line-break-for-all-rights-reserved"><span class="toc-number">1.2.3.</span> <span class="toc-text"> 3. Line Break for “All Rights Reserved”</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#reference"><span class="toc-number">2.</span> <span class="toc-text"> Reference</span></a></li></ol>
       
   </div>
 </div>
@@ -531,15 +613,15 @@ cover: ‘bg_1_update_01.png’<br />
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>文章</div>
-    <div class="sidebar-state-number">9</div>
+    <div>Post</div>
+    <div class="sidebar-state-number">11</div>
   </div>
   <div class="sidebar-state-category">
-    <div>分类</div>
+    <div>Category</div>
     <div class="sidebar-state-number">6</div>
   </div>
   <div class="sidebar-state-tag">
-    <div>标签</div>
+    <div>Tag</div>
     <div class="sidebar-state-number">8</div>
   </div>
 </div>
@@ -550,35 +632,35 @@ cover: ‘bg_1_update_01.png’<br />
   
     
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/" aria-label="首页"></a>
+        <a class="sidebar-menu-link-dummy" href="/en/" aria-label="Home"></a>
         <div class="sidebar-menu-icon icon rotate">
           &#xe62b;
         </div>
-        <div class="sidebar-menu-link">首页</div>
+        <div class="sidebar-menu-link">Home</div>
       </div>
     
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="归档"></a>
+        <a class="sidebar-menu-link-dummy" href="/en/archives" aria-label="Archives"></a>
         <div class="sidebar-menu-icon icon rotate">
           &#xe62b;
         </div>
-        <div class="sidebar-menu-link">归档</div>
+        <div class="sidebar-menu-link">Archives</div>
       </div>
     
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/about" aria-label="关于"></a>
+        <a class="sidebar-menu-link-dummy" href="/en/about" aria-label="About"></a>
         <div class="sidebar-menu-icon icon rotate">
           &#xe62b;
         </div>
-        <div class="sidebar-menu-link">关于</div>
+        <div class="sidebar-menu-link">About</div>
       </div>
     
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/download" aria-label="下载"></a>
+        <a class="sidebar-menu-link-dummy" href="/en/download" aria-label="Download"></a>
         <div class="sidebar-menu-icon icon rotate">
           &#xe62b;
         </div>
-        <div class="sidebar-menu-link">下载</div>
+        <div class="sidebar-menu-link">Download</div>
       </div>
     
   
@@ -698,6 +780,59 @@ cover: ‘bg_1_update_01.png’<br />
           });
       }
     }
+    if (window.Pjax) {
+      Pjax.prototype.getElements = function() {
+        const i18nLanguages = window.REIMU_CONFIG.i18n_languages;
+        const baseUrl = window.REIMU_CONFIG.base;
+        let basePathname = new URL(baseUrl).pathname;
+        if (!basePathname.endsWith('/')) {
+          basePathname += '/';  
+        }
+        const currentUrl = window.location.href;
+        const currentPathname = new URL(currentUrl).pathname.replace(basePathname, '');
+        const aLinks = document.querySelectorAll('a[href]');
+        const pjaxLinks = [];
+        for(let i = 0; i < aLinks.length; i++) {
+          const aLink = aLinks[i];
+          const aLinkHref = aLink.getAttribute('href');
+          const isExternal = aLink.getAttribute('target') === '_blank' || aLink.getAttribute('rel')?.includes('noopener');
+          if (isExternal || aLinkHref.startsWith('mailto:') || aLinkHref.startsWith('tel:') || aLinkHref.startsWith('javascript:') || aLinkHref.startsWith("data:") || aLinkHref.startsWith("vbscript:")) {
+            continue;
+          }
+          if (!i18nLanguages) {
+            // 多语言功能未打开
+            pjaxLinks.push(aLink);
+            continue;
+          }
+
+          const absoluteUrl = new URL(aLinkHref, currentUrl).href;
+          const absolutePathname = new URL(absoluteUrl).pathname.replace(basePathname, '');
+
+          if (!absolutePathname || !currentPathname) {
+            pjaxLinks.push(aLink);
+            continue;
+          }
+
+          const currentLangIndex = i18nLanguages.findIndex(lang => currentPathname.startsWith(lang));
+          if (currentLangIndex > -1) {
+            // 当前属于多语言站点
+            const absoluteLangIndex = i18nLanguages.findIndex(lang => absolutePathname.startsWith(lang));
+            if (absoluteLangIndex === currentLangIndex) {
+              // 同一语言站点，可以使用 pjax
+              pjaxLinks.push(aLink);
+            }
+          } else {
+            // 当前属于默认语言站点
+            const absoluteLangIndex = i18nLanguages.findIndex(lang => absolutePathname.startsWith(lang));
+            if (absoluteLangIndex === -1) {
+              // 同一语言站点，可以使用 pjax
+              pjaxLinks.push(aLink);
+            }
+          }
+        }
+        return pjaxLinks;
+      }
+    }
     window.Pjax && new window.Pjax({
       selectors: [
         "#header>img",
@@ -757,14 +892,14 @@ cover: ‘bg_1_update_01.png’<br />
       <script data-pjax>
         window.REIMU_POST = {
           author: "星辰星宇1314",
-          title: "music-test",
-          url: "https://qsy1225.github.io/music-test/",
+          title: "How to Customize the Footer in Hexo Aurora Theme",
+          url: "https://qsy1225.github.io/Hexo-Aurora/",
           excerpt: "",
           description: "",
-          stripContent: " const ap = new APlayer({ container: document.getElementById(‘aplayer’), audio: [{ name: ‘name’, artist: ‘artist’, url: ‘/music-test/bird_short.wav’, cover: ‘bg_1_update_01.png’ }] }); ",
-          date: "Tue Feb 11 2025 22:56:55 GMT+0800",
-          updated: "Fri Feb 14 2025 15:53:30 GMT+0800",
-          cover: "/images/banner.webp",
+          stripContent: " Getting Started &amp;amp; Declaration Some friends want to remove the “Powered by Hexo &amp;amp; Themed by Aurora” footer when using the Aurora theme. However, the official documentation for Hexo Aurora doesn’t mention footer customization, and there’s no f",
+          date: "Tue Feb 25 2025 23:08:17 GMT+0800",
+          updated: "Tue Feb 25 2025 23:18:37 GMT+0800",
+          cover: "/pp/aurora/cover.jpg",
         };
       </script>
        
@@ -848,7 +983,7 @@ cover: ‘bg_1_update_01.png’<br />
   \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
                                                   
 `,'color: #ff5252;')
-    console.log('%c Theme.Reimu v' + '1.4.0' + ' %c https://github.com/D-Sketon/hexo-theme-reimu ', 'color: white; background: #ff5252; padding:5px 0;', 'padding:4px;border:1px solid #ff5252;')
+    console.log('%c Theme.Reimu v' + '1.5.0' + ' %c https://github.com/D-Sketon/hexo-theme-reimu ', 'color: white; background: #ff5252; padding:5px 0;', 'padding:4px;border:1px solid #ff5252;')
   </script>
   
 

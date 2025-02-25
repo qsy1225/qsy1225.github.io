@@ -13,10 +13,10 @@
 
   
 
-  <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_bq08450reo';window.REIMU_CONFIG.clipboard_tips = {"success":"复制成功(*^▽^*)","fail":"复制失败 (ﾟ⊿ﾟ)ﾂ","copyright":{"enable":false,"count":50,"content":"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！"}};window.REIMU_CONFIG.code_block = {"expand":true};</script>
+  <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_bq08450reo';window.REIMU_CONFIG.clipboard_tips = {"success":"复制成功(*^▽^*)","fail":"复制失败 (ﾟ⊿ﾟ)ﾂ","copyright":{"enable":false,"count":50,"content":"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！"}};window.REIMU_CONFIG.code_block = {"expand":true};window.REIMU_CONFIG.base = 'https://qsy1225.github.io';window.REIMU_CONFIG.i18n_languages = ["en","ja"];</script>
   
   <title>
-    代码测试 |
+    Hexo テーマ Aurora の フッター 修正方法 |
     
     小站
   </title>
@@ -31,24 +31,32 @@
 
   
   
-    <meta name="description" content="123456789&lt;html&gt;    &lt;head&gt;        &lt;script src&#x3D;&quot;js&#x2F;myScript.js&quot;&#x2F;&gt;    &lt;&#x2F;head&gt;    &lt;body&gt;        &lt;script&gt;    fun1();&#x2F;&#x2F;调用脚本中的内容s   &lt;&#x2F;script&gt;    &lt;&#x2F;body&amp;">
+    <meta name="description" content="はじめに &amp; 免責事項 Auroraテーマを使用中に、フッターの「Powered by Hexo &amp; Themed by Aurora」を削除したい方もいるでしょう。しかし、Hexo Auroraの公式ドキュメントにはフッターの設定に関する記載がなく、config.aurora.ymlにもfooterセクションは存在しません。 以下に修正方法を説明します。 免責事項: このチュー">
 <meta property="og:type" content="article">
-<meta property="og:title" content="代码测试">
-<meta property="og:url" content="https://qsy1225.github.io/ja/code-test/index.html">
+<meta property="og:title" content="Hexo テーマ Aurora の フッター 修正方法">
+<meta property="og:url" content="https://qsy1225.github.io/ja/Hexo-Aurora/index.html">
 <meta property="og:site_name" content="小站">
-<meta property="og:description" content="123456789&lt;html&gt;    &lt;head&gt;        &lt;script src&#x3D;&quot;js&#x2F;myScript.js&quot;&#x2F;&gt;    &lt;&#x2F;head&gt;    &lt;body&gt;        &lt;script&gt;    fun1();&#x2F;&#x2F;调用脚本中的内容s   &lt;&#x2F;script&gt;    &lt;&#x2F;body&amp;">
+<meta property="og:description" content="はじめに &amp; 免責事項 Auroraテーマを使用中に、フッターの「Powered by Hexo &amp; Themed by Aurora」を削除したい方もいるでしょう。しかし、Hexo Auroraの公式ドキュメントにはフッターの設定に関する記載がなく、config.aurora.ymlにもfooterセクションは存在しません。 以下に修正方法を説明します。 免責事項: このチュー">
 <meta property="og:locale" content="ja_JP">
-<meta property="article:published_time" content="2025-02-06T08:06:45.000Z">
-<meta property="article:modified_time" content="2025-02-17T05:50:49.694Z">
+<meta property="og:image" content="https://qsy1225.github.io/pp/aurora/p4.png">
+<meta property="og:image" content="https://qsy1225.github.io/pp/aurora/p8.png">
+<meta property="og:image" content="https://qsy1225.github.io/pp/aurora/p1.png">
+<meta property="og:image" content="https://qsy1225.github.io/pp/aurora/p14.png">
+<meta property="og:image" content="https://qsy1225.github.io/pp/aurora/p15.png">
+<meta property="og:image" content="https://qsy1225.github.io/pp/aurora/p12.png">
+<meta property="og:image" content="https://qsy1225.github.io/pp/aurora/p13.png">
+<meta property="article:published_time" content="2025-02-14T15:08:17.000Z">
+<meta property="article:modified_time" content="2025-02-25T14:54:33.261Z">
 <meta property="article:author" content="星辰星宇1314">
-<meta property="article:tag" content="测试">
+<meta property="article:tag" content="Aurora">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://qsy1225.github.io/pp/aurora/p4.png">
   
   
     <link rel="alternate" href="/atom.xml" title="小站" type="application/atom+xml">
   
   
-    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="shortcut icon" href="/images/favicon.png">
   
   
 <link rel="stylesheet" href="/css/style.css">
@@ -96,7 +104,7 @@
     <div class="spinner-box">
       <div class="loading-taichi">
         
-          <img src="/avatar.webp" alt="loading" />
+          <img src="/load.png" alt="loading" />
         
       </div>
       <div class="loading-word">加载中.....</div>
@@ -210,11 +218,11 @@
           item.addEventListener("click", () => {
             const langMap = {};
             
-              langMap['zh-CN'] = '/code-test/';
+              langMap['zh-CN'] = '/Hexo-Aurora/';
             
-              langMap['en'] = '/en/code-test/';
+              langMap['en'] = '/en/Hexo-Aurora/';
             
-              langMap['ja'] = '/ja/code-test/';
+              langMap['ja'] = '/ja/Hexo-Aurora/';
             
             selectedLang.textContent = item.textContent;
             selectItems.classList.remove("show");
@@ -237,12 +245,8 @@
 </div>
 <header id="header">
   
-    <picture>
-      
-    </picture>
-    
-      <img fetchpriority="high" src="/images/banner.webp" alt="代码测试">
-    
+    <picture></picture>
+    <img fetchpriority="high" src="/pp/aurora/cover.jpg" alt="Hexo テーマ Aurora の フッター 修正方法">
   
   <div id="header-outer">
     <div id="header-title">
@@ -250,7 +254,7 @@
         
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">代码测试</h1>
+            <h1 data-aos="slide-up">Hexo テーマ Aurora の フッター 修正方法</h1>
           </a>
         
       
@@ -277,7 +281,7 @@
   <h3 class="toc-title">見出し</h3>
   <div class="sidebar-toc-wrapper toc-div-class" >
       
-        
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB-%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85"><span class="toc-number">1.</span> <span class="toc-text"> はじめに &amp; 免責事項</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%96%A2%E9%80%A3%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E5%A0%B4%E6%89%80"><span class="toc-number">1.1.</span> <span class="toc-text"> 関連ファイルの場所</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BF%AE%E6%AD%A3%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.</span> <span class="toc-text"> 修正方法</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#1-themed-by-aurora%E3%81%AE%E3%81%BF%E5%89%8A%E9%99%A4"><span class="toc-number">1.2.1.</span> <span class="toc-text"> 1. 「Themed by Aurora」のみ削除</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-powered-by%E3%81%A8themed-by%E3%81%AE%E4%B8%A1%E6%96%B9%E3%82%92%E5%89%8A%E9%99%A4"><span class="toc-number">1.2.2.</span> <span class="toc-text"> 2. 「Powered by」と「Themed by」の両方を削除</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3-all-rights-reserved%E3%81%AE%E6%94%B9%E8%A1%8C"><span class="toc-number">1.2.3.</span> <span class="toc-text"> 3. 「All Rights Reserved」の改行</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E8%A8%98%E4%BA%8B"><span class="toc-number">2.</span> <span class="toc-text"> 参考記事</span></a></li></ol>
       
   </div>
 </div>
@@ -290,7 +294,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>投稿</div>
-    <div class="sidebar-state-number">9</div>
+    <div class="sidebar-state-number">11</div>
   </div>
   <div class="sidebar-state-category">
     <div>カテゴリ</div>
@@ -357,19 +361,19 @@
   </div>
 </aside>
 
-          <section id="main"><article id="post-code-test" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+          <section id="main"><article id="post-aurora-ja" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-inner" data-aos="fade-up">
     <div class="article-meta">
       <div class="article-date">
   <span class="article-date-link" data-aos="zoom-in">
-    <time datetime="2025-02-06T08:06:45.000Z" itemprop="datePublished">2025-02-06</time>
-    <time style="display: none;" id="post-update-time">2025-02-17</time>
+    <time datetime="2025-02-14T15:08:17.000Z" itemprop="datePublished">2025-02-14</time>
+    <time style="display: none;" id="post-update-time">2025-02-25</time>
   </span>
 </div>
 
       
   <div class="article-category">
-    <a class="article-category-link" href="/ja/categories/%E6%B5%8B%E8%AF%95/" data-aos="zoom-in">测试</a>
+    <a class="article-category-link" href="/ja/categories/Aurora/" data-aos="zoom-in">Aurora</a>
   </div>
 
 
@@ -380,20 +384,95 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
       
-        <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">        &lt;script src=&quot;js/myScript.js&quot;/&gt;</span><br><span class="line">    &lt;/head&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">        &lt;script&gt;</span><br><span class="line">    fun1();//调用脚本中的内容s </span><br><span class="line">  &lt;/script&gt;</span><br><span class="line">    &lt;/body&gt;</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;HelloWorld&quot;</span>)</span><br></pre></td></tr></table></figure>
+        <h3 id="はじめに-免責事項"><a class="markdownIt-Anchor" href="#はじめに-免責事項"></a> はじめに &amp; 免責事項</h3>
+<p>Auroraテーマを使用中に、フッターの「Powered by Hexo &amp; Themed by Aurora」を削除したい方もいるでしょう。しかし、Hexo Auroraの<a target="_blank" rel="noopener" href="https://aurora.tridiamond.tech/cn/">公式ドキュメント</a>にはフッターの設定に関する記載がなく、<code>config.aurora.yml</code>にも<code>footer</code>セクションは存在しません。</p>
+<p>以下に修正方法を説明します。</p>
+<p><strong>免責事項:</strong><br />
+このチュートリアルは非専門家が作成したもので、誤りがある可能性があります。変更前に必ずサイトのバックアップを取ってください。<br />
+問題が発生した場合はコメントでお知らせください。可能な限り対応します。</p>
+<hr />
+<h4 id="関連ファイルの場所"><a class="markdownIt-Anchor" href="#関連ファイルの場所"></a> 関連ファイルの場所</h4>
+<p><strong>元のフッター:</strong><br />
+<img src="/pp/aurora/p4.png" width=60% height=75% /></p>
+<ol>
+<li>
+<p>ブログのルートディレクトリに移動します。</p>
+</li>
+<li>
+<p><code>node_modules/hexo-theme-aurora/layout/index.ejs</code>を開きます。<br />
+<img src="/pp/aurora/p8.png" width=60% height=75% /></p>
+</li>
+<li>
+<p>スクリプトタグを確認します。ファイル名（例: <code>120aa8f8.js</code>）は異なる場合があります:<br />
+<img src="/pp/aurora/p1.png" width=60% height=75% /></p>
+</li>
+<li>
+<p>親ディレクトリに戻り、<code>source/static/js/</code>に移動します。</p>
+</li>
+<li>
+<p>JavaScriptファイル（例: <code>120aa8f8.js</code>）をテキストエディタで開きます。</p>
+</li>
+<li>
+<p><strong>Ctrl+F</strong>（または「検索」）で<code>Powered</code>を検索し、該当コードを探します:</p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="title function_">v</span>(<span class="string">&quot;span&quot;</span>,<span class="variable constant_">N6</span>,[<span class="title function_">v</span>(<span class="string">&quot;div&quot;</span>,<span class="variable constant_">D6</span>,[<span class="title function_">v</span>(<span class="string">&quot;div&quot;</span>,<span class="variable constant_">F6</span>,[<span class="title function_">v</span>(<span class="string">&quot;ul&quot;</span>,j6,[<span class="title function_">v</span>(<span class="string">&quot;li&quot;</span>,<span class="literal">null</span>,[<span class="title class_">Ve</span>(<span class="string">&quot; Copyright © 2019 - &quot;</span>+<span class="title function_">K</span>(e.<span class="property">currentYear</span>)+<span class="string">&quot; &quot;</span>,<span class="number">1</span>),<span class="title function_">v</span>(<span class="string">&quot;b&quot;</span>,<span class="variable constant_">B6</span>,<span class="title function_">K</span>(e.<span class="property">themeConfig</span>.<span class="property">site</span>.<span class="property">author</span>),<span class="number">1</span>),<span class="title class_">Ve</span>(<span class="string">&quot; . All Rights Reserved. &quot;</span>)]),<span class="title function_">v</span>(<span class="string">&quot;li&quot;</span>,<span class="literal">null</span>,[<span class="title class_">Ve</span>(<span class="string">&quot; Powered by &quot;</span>),<span class="variable constant_">Z6</span>,<span class="title class_">Ve</span>(<span class="string">&quot; &amp; Themed by &quot;</span>),<span class="title function_">v</span>(<span class="string">&quot;a&quot;</span>,<span class="variable constant_">H6</span>,[<span class="title function_">v</span>(<span class="string">&quot;b&quot;</span>,<span class="variable constant_">U6</span>,<span class="string">&quot; Aurora v&quot;</span>+<span class="title function_">K</span>(e.<span class="property">themeConfig</span>.<span class="property">version</span>),<span class="number">1</span>)])])</span><br></pre></td></tr></table></figure>
+<hr />
+<h4 id="修正方法"><a class="markdownIt-Anchor" href="#修正方法"></a> 修正方法</h4>
+<h5 id="1-themed-by-auroraのみ削除"><a class="markdownIt-Anchor" href="#1-themed-by-auroraのみ削除"></a> 1. 「Themed by Aurora」のみ削除</h5>
+<p>マークされたコードを削除:</p>
+<pre><code class="javascript">,v(&quot;a&quot;,H6,[v(&quot;b&quot;,U6,&quot; Aurora v&quot;+K(e.themeConfig.version),1)])
+</code></pre>
+<p><strong>結果:</strong><br />
+<img src="/pp/aurora/p14.png" width=60% height=75% /></p>
+<hr />
+<h5 id="2-powered-byとthemed-byの両方を削除"><a class="markdownIt-Anchor" href="#2-powered-byとthemed-byの両方を削除"></a> 2. 「Powered by」と「Themed by」の両方を削除</h5>
+<p>該当行全体を削除:</p>
+<pre><code class="javascript">,v(&quot;li&quot;,null,[Ve(&quot; Powered by &quot;),Z6,Ve(&quot; &amp; Themed by &quot;),v(&quot;a&quot;,H6,[v(&quot;b&quot;,U6,&quot; Aurora v&quot;+K(e.themeConfig.version),1)])])
+</code></pre>
+<p><strong>結果:</strong><br />
+<img src="/pp/aurora/p15.png" width=60% height=75% /></p>
+<p>編集後、ファイルを保存し、以下を実行:</p>
+<pre><code class="bash">hexo cl
+hexo g
+hexo s
+</code></pre>
+<p>ローカルで確認後、<code>hexo d</code>でデプロイします。</p>
+<p><strong>重要:</strong><br />
+余計な**カンマ（<code>,</code>）**を残すと、ページが無限に読み込まれる可能性があります！正確に削除してください。</p>
+<hr />
+<h5 id="3-all-rights-reservedの改行"><a class="markdownIt-Anchor" href="#3-all-rights-reservedの改行"></a> 3. 「All Rights Reserved」の改行</h5>
+<p>「All Rights Reserved」を改行させる場合:</p>
+<p><strong>元のコード:</strong></p>
+<pre><code class="javascript">Ve(&quot; . All Rights Reserved. &quot;)
+</code></pre>
+<p><strong>修正後:</strong></p>
+<pre><code class="javascript">Ve(&quot;.&quot;),v(&quot;br&quot;),Ve(&quot; All Rights Reserved. &quot;)
+</code></pre>
+<p><strong>効果:</strong><br />
+<img src="/pp/aurora/p12.png" width=40% height=75% /></p>
+<p>ピリオドの間隔が狭い場合はスペースを追加:</p>
+<pre><code class="javascript">Ve(&quot;. &quot;),v(&quot;br&quot;),Ve(&quot;All Rights Reserved. &quot;)
+</code></pre>
+<p><strong>効果:</strong><br />
+<img src="/pp/aurora/p13.png" width=40% height=75% /></p>
+<hr />
+<h3 id="参考記事"><a class="markdownIt-Anchor" href="#参考記事"></a> 参考記事</h3>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://gongxuanzhang.github.io/post/aurora%E5%88%A0%E9%99%A4%E8%AF%84%E8%AE%BA%E4%BE%A7%E8%BE%B9%E6%A0%8F">Auroraのコメントサイドバー削除方法（中国語）</a></li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
       
         <blockquote class="article-copyright">
-    <p><strong><span class="icon-user icon"></span>本文作者：</strong>星辰星宇1314 @ 小站</p>
-    <p><strong><span class="icon-link icon"></span>本文链接：</strong><a href="https://qsy1225.github.io/code-test/">https://qsy1225.github.io/code-test/</a></p>
-    <p><strong><span class="icon-pencil icon"></span>本文标题：</strong>「代码测试」</p>
+    <p><strong><span class="icon-user icon"></span>著者：</strong>星辰星宇1314 @ 小站</p>
+    <p><strong><span class="icon-link icon"></span>パーマリンク：</strong><a href="https://qsy1225.github.io/ja/Hexo-Aurora/">https://qsy1225.github.io/ja/Hexo-Aurora/</a></p>
+    <p><strong><span class="icon-pencil icon"></span>タイトル：</strong>「Hexo テーマ Aurora の フッター 修正方法」</p>
     
     
-    <p><strong><span class="icon-copyright icon"></span>本文版权：</strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener external nofollow noreferrer" target="_blank"><span class="icon-creative-commons"></span>BY-NC-SA</a> 许可协议。转载请注明出处！</p>
+    <p><strong><span class="icon-copyright icon"></span>ライセンス：</strong>本ブログのすべての文書は、特に指定されていない限り、<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener external nofollow noreferrer" target="_blank"><span class="icon-creative-commons"></span>BY-NC-SA</a> ライセンスに従っています。引用の際は出典を明記してください！</p>
     <span class="icon-creative-commons article-copyright-bg"></span>
   </blockquote>
       
@@ -401,8 +480,8 @@
       
       
       
-        <a data-aos="zoom-in" href="/ja/code-test/#comments" class="article-comment-link">
-          <span class="post-comments-count waline-comment-count" data-path="/ja/code-test/" itemprop="commentCount"></span>
+        <a data-aos="zoom-in" href="/ja/Hexo-Aurora/#comments" class="article-comment-link">
+          <span class="post-comments-count waline-comment-count" data-path="/ja/Hexo-Aurora/" itemprop="commentCount"></span>
           コメント
         </a>
       
@@ -410,7 +489,7 @@
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in"><a class="article-tag-list-link" href="/ja/tags/%E6%B5%8B%E8%AF%95/" rel="tag">测试</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in"><a class="article-tag-list-link" href="/ja/tags/Aurora/" rel="tag">Aurora</a></li></ul>
 
 
     </footer>
@@ -418,35 +497,37 @@
   
   <nav id="article-nav" data-aos="fade-up">
     
+      
       <div class="article-nav-link-wrap article-nav-link-left">
         
           
           
-            <img data-src="/covers/bg_1_story_cg_Y0531.png" data-sizes="auto" alt="music-test" class="lazyload">
+            <img data-src="/covers/bg_1_story_cg_Y0531.png" data-sizes="auto" alt="无" class="lazyload">
           
         
-        <a href="/ja/music-test/"></a>
+        <a href="/ja/undefined/"></a>
         <div class="article-nav-caption">次の記事</div>
         <h3 class="article-nav-title">
           
-            music-test
+            无
           
         </h3>
       </div>
+    
     
     
     <div class="article-nav-link-wrap article-nav-link-right">
       
         
         
-          <img data-src="/covers/bg_1_story_cg_Y0531.png" data-sizes="auto" alt="香蕉君视频" class="lazyload">
+          <img data-src="/covers/bg_1_story_cg_Y0531.png" data-sizes="auto" alt="无" class="lazyload">
         
       
-      <a href="/ja/banana/"></a>
+      <a href="/ja/undefined/"></a>
       <div class="article-nav-caption">前の記事</div>
       <h3 class="article-nav-title">
         
-          香蕉君视频
+          无
         
       </h3>
     </div>
@@ -483,10 +564,10 @@
     
       <div>
         <span class="icon-brush"></span>
-        3.2k
+        4.2k
         &nbsp;|&nbsp;
         <span class="icon-coffee"></span>
-        00:16
+        00:20
       </div>
     
     
@@ -518,7 +599,7 @@
   <h3 class="toc-title">見出し</h3>
   <div class="sidebar-toc-wrapper toc-div-class" >
       
-        
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB-%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85"><span class="toc-number">1.</span> <span class="toc-text"> はじめに &amp; 免責事項</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%96%A2%E9%80%A3%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E5%A0%B4%E6%89%80"><span class="toc-number">1.1.</span> <span class="toc-text"> 関連ファイルの場所</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BF%AE%E6%AD%A3%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.</span> <span class="toc-text"> 修正方法</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#1-themed-by-aurora%E3%81%AE%E3%81%BF%E5%89%8A%E9%99%A4"><span class="toc-number">1.2.1.</span> <span class="toc-text"> 1. 「Themed by Aurora」のみ削除</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-powered-by%E3%81%A8themed-by%E3%81%AE%E4%B8%A1%E6%96%B9%E3%82%92%E5%89%8A%E9%99%A4"><span class="toc-number">1.2.2.</span> <span class="toc-text"> 2. 「Powered by」と「Themed by」の両方を削除</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3-all-rights-reserved%E3%81%AE%E6%94%B9%E8%A1%8C"><span class="toc-number">1.2.3.</span> <span class="toc-text"> 3. 「All Rights Reserved」の改行</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E8%A8%98%E4%BA%8B"><span class="toc-number">2.</span> <span class="toc-text"> 参考記事</span></a></li></ol>
       
   </div>
 </div>
@@ -531,7 +612,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>投稿</div>
-    <div class="sidebar-state-number">9</div>
+    <div class="sidebar-state-number">11</div>
   </div>
   <div class="sidebar-state-category">
     <div>カテゴリ</div>
@@ -697,6 +778,59 @@
           });
       }
     }
+    if (window.Pjax) {
+      Pjax.prototype.getElements = function() {
+        const i18nLanguages = window.REIMU_CONFIG.i18n_languages;
+        const baseUrl = window.REIMU_CONFIG.base;
+        let basePathname = new URL(baseUrl).pathname;
+        if (!basePathname.endsWith('/')) {
+          basePathname += '/';  
+        }
+        const currentUrl = window.location.href;
+        const currentPathname = new URL(currentUrl).pathname.replace(basePathname, '');
+        const aLinks = document.querySelectorAll('a[href]');
+        const pjaxLinks = [];
+        for(let i = 0; i < aLinks.length; i++) {
+          const aLink = aLinks[i];
+          const aLinkHref = aLink.getAttribute('href');
+          const isExternal = aLink.getAttribute('target') === '_blank' || aLink.getAttribute('rel')?.includes('noopener');
+          if (isExternal || aLinkHref.startsWith('mailto:') || aLinkHref.startsWith('tel:') || aLinkHref.startsWith('javascript:') || aLinkHref.startsWith("data:") || aLinkHref.startsWith("vbscript:")) {
+            continue;
+          }
+          if (!i18nLanguages) {
+            // 多语言功能未打开
+            pjaxLinks.push(aLink);
+            continue;
+          }
+
+          const absoluteUrl = new URL(aLinkHref, currentUrl).href;
+          const absolutePathname = new URL(absoluteUrl).pathname.replace(basePathname, '');
+
+          if (!absolutePathname || !currentPathname) {
+            pjaxLinks.push(aLink);
+            continue;
+          }
+
+          const currentLangIndex = i18nLanguages.findIndex(lang => currentPathname.startsWith(lang));
+          if (currentLangIndex > -1) {
+            // 当前属于多语言站点
+            const absoluteLangIndex = i18nLanguages.findIndex(lang => absolutePathname.startsWith(lang));
+            if (absoluteLangIndex === currentLangIndex) {
+              // 同一语言站点，可以使用 pjax
+              pjaxLinks.push(aLink);
+            }
+          } else {
+            // 当前属于默认语言站点
+            const absoluteLangIndex = i18nLanguages.findIndex(lang => absolutePathname.startsWith(lang));
+            if (absoluteLangIndex === -1) {
+              // 同一语言站点，可以使用 pjax
+              pjaxLinks.push(aLink);
+            }
+          }
+        }
+        return pjaxLinks;
+      }
+    }
     window.Pjax && new window.Pjax({
       selectors: [
         "#header>img",
@@ -756,14 +890,14 @@
       <script data-pjax>
         window.REIMU_POST = {
           author: "星辰星宇1314",
-          title: "代码测试",
-          url: "https://qsy1225.github.io/code-test/",
+          title: "Hexo テーマ Aurora の フッター 修正方法",
+          url: "https://qsy1225.github.io/Hexo-Aurora/",
           excerpt: "",
           description: "",
-          stripContent: "123456789&amp;lt;html&amp;gt;    &amp;lt;head&amp;gt;        &amp;lt;script src=&amp;quot;js/myScript.js&amp;quot;/&amp;gt;    &amp;lt;/head&amp;gt;    &amp;lt;body&amp;gt;        &amp;lt;script&amp;gt;    fun1();//调用脚本中的内容s   &amp;lt;/script&amp;gt;    &amp;lt;/body&amp;gt; 12from time import sleepprint(&amp;quot;HelloWorld",
-          date: "Thu Feb 06 2025 16:06:45 GMT+0800",
-          updated: "Mon Feb 17 2025 13:50:49 GMT+0800",
-          cover: "/images/banner.webp",
+          stripContent: " はじめに &amp;amp; 免責事項 Auroraテーマを使用中に、フッターの「Powered by Hexo &amp;amp; Themed by Aurora」を削除したい方もいるでしょう。しかし、Hexo Auroraの公式ドキュメントにはフッターの設定に関する記載がなく、config.aurora.ymlにもfooterセクションは存在しません。 以下に修正方法を説明します。 免責事項: このチュートリアルは非専門家が作成したもので、誤りがある可能性があります。変更前に必ずサイトのバックアップを取",
+          date: "Fri Feb 14 2025 23:08:17 GMT+0800",
+          updated: "Tue Feb 25 2025 22:54:33 GMT+0800",
+          cover: "/pp/aurora/cover.jpg",
         };
       </script>
        
@@ -847,7 +981,7 @@
   \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
                                                   
 `,'color: #ff5252;')
-    console.log('%c Theme.Reimu v' + '1.4.0' + ' %c https://github.com/D-Sketon/hexo-theme-reimu ', 'color: white; background: #ff5252; padding:5px 0;', 'padding:4px;border:1px solid #ff5252;')
+    console.log('%c Theme.Reimu v' + '1.5.0' + ' %c https://github.com/D-Sketon/hexo-theme-reimu ', 'color: white; background: #ff5252; padding:5px 0;', 'padding:4px;border:1px solid #ff5252;')
   </script>
   
 
