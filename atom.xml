@@ -91,32 +91,6 @@
   </entry>
   
   <entry>
-    <title>如何修改 Hexo Aurora 主题的页脚</title>
-    <link href="https://qsy1225.github.io/Hexo-Aurora/"/>
-    <id>https://qsy1225.github.io/Hexo-Aurora/</id>
-    <published>2025-02-14T15:08:17.000Z</published>
-    <updated>2025-02-25T14:53:28.367Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;开始与声明&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#开始与声明&quot;&gt;&lt;/a&gt; 开始与声明&lt;/h3&gt;
-&lt;p&gt;部分朋友在使用该主题时想去掉页脚的Powered by Hexo &amp;amp; Themed by Aurora。而Hexo</summary>
-        
-      
-    
-    
-    
-    <category term="Aurora" scheme="https://qsy1225.github.io/categories/Aurora/"/>
-    
-    
-    <category term="Aurora" scheme="https://qsy1225.github.io/tags/Aurora/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo テーマ Aurora の フッター 修正方法</title>
     <link href="https://qsy1225.github.io/Hexo-Aurora/"/>
     <id>https://qsy1225.github.io/Hexo-Aurora/</id>
@@ -130,6 +104,32 @@
         
     <summary type="html">&lt;h3 id=&quot;はじめに-免責事項&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#はじめに-免責事項&quot;&gt;&lt;/a&gt; はじめに &amp;amp; 免責事項&lt;/h3&gt;
 &lt;p&gt;Auroraテーマを使用中に、フッターの「Powered by Hexo &amp;amp;</summary>
+        
+      
+    
+    
+    
+    <category term="Aurora" scheme="https://qsy1225.github.io/categories/Aurora/"/>
+    
+    
+    <category term="Aurora" scheme="https://qsy1225.github.io/tags/Aurora/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何修改 Hexo Aurora 主题的页脚</title>
+    <link href="https://qsy1225.github.io/Hexo-Aurora/"/>
+    <id>https://qsy1225.github.io/Hexo-Aurora/</id>
+    <published>2025-02-14T15:08:17.000Z</published>
+    <updated>2025-02-25T14:53:28.367Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;开始与声明&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#开始与声明&quot;&gt;&lt;/a&gt; 开始与声明&lt;/h3&gt;
+&lt;p&gt;部分朋友在使用该主题时想去掉页脚的Powered by Hexo &amp;amp; Themed by Aurora。而Hexo</summary>
         
       
     
@@ -193,10 +193,10 @@
   
   <entry>
     <title>香蕉君视频</title>
-    <link href="https://qsy1225.github.io/undefined/"/>
-    <id>https://qsy1225.github.io/undefined/</id>
+    <link href="https://qsy1225.github.io/banana/"/>
+    <id>https://qsy1225.github.io/banana/</id>
     <published>2025-02-05T11:53:02.000Z</published>
-    <updated>2025-02-14T14:15:18.762Z</updated>
+    <updated>2025-03-01T09:56:08.816Z</updated>
     
     
       
@@ -220,19 +220,18 @@
   </entry>
   
   <entry>
-    <title>测试</title>
-    <link href="https://qsy1225.github.io/undefined/"/>
-    <id>https://qsy1225.github.io/undefined/</id>
+    <title>数学公式测试</title>
+    <link href="https://qsy1225.github.io/math-test/"/>
+    <id>https://qsy1225.github.io/math-test/</id>
     <published>2025-02-05T07:22:10.000Z</published>
-    <updated>2025-02-17T05:58:57.774Z</updated>
+    <updated>2025-03-01T09:58:13.360Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;此为英文界面。&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
+    <summary type="html">&lt;p&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
         
       
     
@@ -246,11 +245,11 @@
   </entry>
   
   <entry>
-    <title>无</title>
-    <link href="https://qsy1225.github.io/undefined/"/>
-    <id>https://qsy1225.github.io/undefined/</id>
+    <title>引用测试</title>
+    <link href="https://qsy1225.github.io/quote-test/"/>
+    <id>https://qsy1225.github.io/quote-test/</id>
     <published>2025-02-04T12:59:36.000Z</published>
-    <updated>2025-02-15T05:54:32.553Z</updated>
+    <updated>2025-03-01T09:57:22.700Z</updated>
     
     
       
