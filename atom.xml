@@ -91,32 +91,6 @@
   </entry>
   
   <entry>
-    <title>Hexo テーマ Aurora の フッター 修正方法</title>
-    <link href="https://qsy1225.github.io/Hexo-Aurora/"/>
-    <id>https://qsy1225.github.io/Hexo-Aurora/</id>
-    <published>2025-02-14T15:08:17.000Z</published>
-    <updated>2025-02-25T14:54:33.261Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;はじめに-免責事項&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#はじめに-免責事項&quot;&gt;&lt;/a&gt; はじめに &amp;amp; 免責事項&lt;/h3&gt;
-&lt;p&gt;Auroraテーマを使用中に、フッターの「Powered by Hexo &amp;amp;</summary>
-        
-      
-    
-    
-    
-    <category term="Aurora" scheme="https://qsy1225.github.io/categories/Aurora/"/>
-    
-    
-    <category term="Aurora" scheme="https://qsy1225.github.io/tags/Aurora/"/>
-    
-  </entry>
-  
-  <entry>
     <title>如何修改 Hexo Aurora 主题的页脚</title>
     <link href="https://qsy1225.github.io/Hexo-Aurora/"/>
     <id>https://qsy1225.github.io/Hexo-Aurora/</id>
@@ -130,6 +104,32 @@
         
     <summary type="html">&lt;h3 id=&quot;开始与声明&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#开始与声明&quot;&gt;&lt;/a&gt; 开始与声明&lt;/h3&gt;
 &lt;p&gt;部分朋友在使用该主题时想去掉页脚的Powered by Hexo &amp;amp; Themed by Aurora。而Hexo</summary>
+        
+      
+    
+    
+    
+    <category term="Aurora" scheme="https://qsy1225.github.io/categories/Aurora/"/>
+    
+    
+    <category term="Aurora" scheme="https://qsy1225.github.io/tags/Aurora/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo テーマ Aurora の フッター 修正方法</title>
+    <link href="https://qsy1225.github.io/Hexo-Aurora/"/>
+    <id>https://qsy1225.github.io/Hexo-Aurora/</id>
+    <published>2025-02-14T15:08:17.000Z</published>
+    <updated>2025-02-25T14:54:33.261Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;はじめに-免責事項&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#はじめに-免責事項&quot;&gt;&lt;/a&gt; はじめに &amp;amp; 免責事項&lt;/h3&gt;
+&lt;p&gt;Auroraテーマを使用中に、フッターの「Powered by Hexo &amp;amp;</summary>
         
       
     
