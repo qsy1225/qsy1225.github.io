@@ -42,51 +42,28 @@
   </entry>
   
   <entry>
-    <title>reimu主题安装教程</title>
-    <link href="https://qsy1225.github.io/undefined/"/>
-    <id>https://qsy1225.github.io/undefined/</id>
-    <published>2025-02-19T12:33:43.000Z</published>
-    <updated>2025-02-19T13:54:10.661Z</updated>
-    
-    
-    <summary type="html">本文介绍关于如何安装reimu主题，以及如何更新。</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://qsy1225.github.io/categories/Hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://qsy1225.github.io/tags/Hexo/"/>
-    
-    <category term="reimu" scheme="https://qsy1225.github.io/tags/reimu/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo reimu主题问题及解答</title>
-    <link href="https://qsy1225.github.io/undefined/"/>
-    <id>https://qsy1225.github.io/undefined/</id>
-    <published>2025-02-18T13:23:04.000Z</published>
-    <updated>2025-02-19T13:38:31.775Z</updated>
+    <title>Hexo テーマ Aurora の フッター 修正方法</title>
+    <link href="https://qsy1225.github.io/Hexo-Aurora/"/>
+    <id>https://qsy1225.github.io/Hexo-Aurora/</id>
+    <published>2025-02-14T15:08:17.000Z</published>
+    <updated>2025-02-25T14:54:33.261Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;此文章记录并解答在使用reimu主题时可能遇到的问题。&lt;/p&gt;
-&lt;h3 id=&quot;声明&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#声明&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h3 id=&quot;はじめに-免責事項&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#はじめに-免責事項&quot;&gt;&lt;/a&gt; はじめに &amp;amp; 免責事項&lt;/h3&gt;
+&lt;p&gt;Auroraテーマを使用中に、フッターの「Powered by Hexo &amp;amp;</summary>
         
       
     
     
     
-    <category term="Hexo" scheme="https://qsy1225.github.io/categories/Hexo/"/>
+    <category term="Aurora" scheme="https://qsy1225.github.io/categories/Aurora/"/>
     
     
-    <category term="Hexo" scheme="https://qsy1225.github.io/tags/Hexo/"/>
-    
-    <category term="reimu" scheme="https://qsy1225.github.io/tags/reimu/"/>
+    <category term="Aurora" scheme="https://qsy1225.github.io/tags/Aurora/"/>
     
   </entry>
   
@@ -121,7 +98,7 @@
     <link href="https://qsy1225.github.io/xuanze1/"/>
     <id>https://qsy1225.github.io/xuanze1/</id>
     <published>2025-02-14T15:08:17.000Z</published>
-    <updated>2025-03-18T06:19:55.669Z</updated>
+    <updated>2025-03-18T06:50:24.841Z</updated>
     
     
       
@@ -129,8 +106,9 @@
         
         
     <summary type="html">&lt;p&gt;以下仅供同学们学习使用，禁止照抄答案！&lt;/p&gt;
-&lt;p&gt;奇偶数判断&lt;/p&gt;
-&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+&lt;p&gt;c语言实验2 选择结构&lt;/p&gt;
+&lt;h4 id=&quot;奇偶数判断&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#奇偶数判断&quot;&gt;&lt;/a&gt; 奇偶数判断&lt;/h4&gt;
+&lt;figure</summary>
         
       
     
@@ -139,24 +117,24 @@
     <category term="Aurora" scheme="https://qsy1225.github.io/categories/Aurora/"/>
     
     
-    <category term="Aurora" scheme="https://qsy1225.github.io/tags/Aurora/"/>
+    <category term="C" scheme="https://qsy1225.github.io/tags/C/"/>
     
   </entry>
   
   <entry>
-    <title>Hexo テーマ Aurora の フッター 修正方法</title>
-    <link href="https://qsy1225.github.io/Hexo-Aurora/"/>
-    <id>https://qsy1225.github.io/Hexo-Aurora/</id>
+    <title>c语言顺序结构</title>
+    <link href="https://qsy1225.github.io/xuanze0/"/>
+    <id>https://qsy1225.github.io/xuanze0/</id>
     <published>2025-02-14T15:08:17.000Z</published>
-    <updated>2025-02-25T14:54:33.261Z</updated>
+    <updated>2025-03-18T06:52:30.009Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;はじめに-免責事項&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#はじめに-免責事項&quot;&gt;&lt;/a&gt; はじめに &amp;amp; 免責事項&lt;/h3&gt;
-&lt;p&gt;Auroraテーマを使用中に、フッターの「Powered by Hexo &amp;amp;</summary>
+    <summary type="html">&lt;h3 id=&quot;顺序实验&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#顺序实验&quot;&gt;&lt;/a&gt; 顺序实验&lt;/h3&gt;
+&lt;h4 id=&quot;sdut-c语言实验ab-problem&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
         
       
     
@@ -165,7 +143,7 @@
     <category term="Aurora" scheme="https://qsy1225.github.io/categories/Aurora/"/>
     
     
-    <category term="Aurora" scheme="https://qsy1225.github.io/tags/Aurora/"/>
+    <category term="C" scheme="https://qsy1225.github.io/tags/C/"/>
     
   </entry>
   
