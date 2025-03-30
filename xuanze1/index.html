@@ -6,6 +6,7 @@
     
   >
   <head>
+  
   <meta charset="utf-8">
   
 
@@ -16,12 +17,12 @@
   <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_bq08450reo';window.REIMU_CONFIG.clipboard_tips = {"success":"复制成功(*^▽^*)","fail":"复制失败 (ﾟ⊿ﾟ)ﾂ","copyright":{"enable":false,"count":50,"content":"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！"}};window.REIMU_CONFIG.code_block = {"expand":true};window.REIMU_CONFIG.base = 'https://qsy1225.github.io';window.REIMU_CONFIG.i18n_languages = ["en","ja"];</script>
   
   <title>
-    c语言代码 |
+    c语言选择结构 |
     
     小站
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Sour%20Gummy:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sour%20Gummy:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic&display=swap" media="print" onload="this.media&#x3D;&#39;all&#39;">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CSour%20Gummy:400,400italic,700,700italic&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CSour%20Gummy:400,400italic,700,700italic&display=swap" media="print" onload="this.media&#x3D;&#39;all&#39;">
   
     <link rel="preload" href="//at.alicdn.com/t/c/font_4552607_bq08450reo.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   
@@ -33,15 +34,15 @@
   
     <meta name="description" content="以下仅供同学们学习使用，禁止照抄答案！ c语言实验2 选择结构  奇偶数判断 123456789101112131415161718#include&lt;stdio.h&gt;int main()&#123;    int a;    scanf(&quot;%d&quot;,&amp;a);    if(a%2&#x3D;&#x3D;0)    &#123;        printf(&quot;Even&amp;qu">
 <meta property="og:type" content="article">
-<meta property="og:title" content="c语言代码">
+<meta property="og:title" content="c语言选择结构">
 <meta property="og:url" content="https://qsy1225.github.io/xuanze1/index.html">
 <meta property="og:site_name" content="小站">
 <meta property="og:description" content="以下仅供同学们学习使用，禁止照抄答案！ c语言实验2 选择结构  奇偶数判断 123456789101112131415161718#include&lt;stdio.h&gt;int main()&#123;    int a;    scanf(&quot;%d&quot;,&amp;a);    if(a%2&#x3D;&#x3D;0)    &#123;        printf(&quot;Even&amp;qu">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-02-14T15:08:17.000Z">
-<meta property="article:modified_time" content="2025-03-18T06:50:24.841Z">
+<meta property="article:modified_time" content="2025-03-30T14:36:40.793Z">
 <meta property="article:author" content="星辰星宇1314">
-<meta property="article:tag" content="C">
+<meta property="article:tag" content="C&#x2F;C++">
 <meta name="twitter:card" content="summary">
   
   
@@ -86,9 +87,11 @@
 <link rel="stylesheet" href="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.css">
 
   
+  
 <meta name="generator" content="Hexo 7.3.0"></head>
 
   <body>
+    
     
   <div id='loader'>
     <div class="loading-left-bg loading-bg"></div>
@@ -171,6 +174,8 @@
   </nav>
   <nav id="sub-nav">
     
+      <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS 订阅" target="_blank"></a>
+    
     
     
       <a id="nav-search-btn" class="nav-icon popup-trigger" title="搜索"></a>
@@ -236,7 +241,7 @@
 <header id="header">
   
     <picture></picture>
-    <img fetchpriority="high" src="/pp/aurora/cover.jpg" alt="c语言代码">
+    <img fetchpriority="high" src="/pp/aurora/cover.jpg" alt="c语言选择结构">
   
   <div id="header-outer">
     <div id="header-title">
@@ -244,7 +249,7 @@
         
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">c语言代码</h1>
+            <h1 data-aos="slide-up">c语言选择结构</h1>
           </a>
         
       
@@ -261,13 +266,15 @@
         <div id="content"  class="sidebar-right" >
           <aside id="sidebar">
   
+  
     <div id="aplayer" theme="var(--color-link)" data-aos="fade-up"></div>
   
   
   <div class="sidebar-wrapper wrap-sticky">
     <div class="sidebar-wrap" data-aos="fade-up">
       
-        <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+        
+          <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
   <h3 class="toc-title">文章目录</h3>
   <div class="sidebar-toc-wrapper toc-div-class" >
       
@@ -276,7 +283,7 @@
   </div>
 </div>
 </div>
-        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="星辰星宇1314" class="lazyload">
   <div class="sidebar-author-name">星辰星宇1314</div>
   <div class="sidebar-description"></div>
@@ -284,15 +291,15 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>文章</div>
-    <div class="sidebar-state-number">11</div>
+    <div class="sidebar-state-number">12</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
-    <div class="sidebar-state-number">5</div>
+    <div class="sidebar-state-number">7</div>
   </div>
   <div class="sidebar-state-tag">
     <div>标签</div>
-    <div class="sidebar-state-number">7</div>
+    <div class="sidebar-state-number">8</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -336,12 +343,15 @@
   
 </div>
 </div>
+        
       
       
-        <div class="sidebar-btn-wrapper" style="position:static">
-          <div class="sidebar-toc-btn current"></div>
-          <div class="sidebar-common-btn"></div>
-        </div>
+        
+          <div class="sidebar-btn-wrapper" style="position:static">
+            <div class="sidebar-toc-btn current"></div>
+            <div class="sidebar-common-btn"></div>
+          </div>
+        
       
     </div>
   </div>
@@ -349,6 +359,7 @@
   <div class="sidebar-widget">
   
   </div>
+  
 </aside>
 
           <section id="main"><article id="post-cyuyan" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
@@ -357,13 +368,13 @@
       <div class="article-date">
   <span class="article-date-link" data-aos="zoom-in">
     <time datetime="2025-02-14T15:08:17.000Z" itemprop="datePublished">2025-02-14</time>
-    <time style="display: none;" id="post-update-time">2025-03-18</time>
+    <time style="display: none;" id="post-update-time">2025-03-30</time>
   </span>
 </div>
 
       
   <div class="article-category">
-    <a class="article-category-link" href="/categories/Aurora/" data-aos="zoom-in">Aurora</a>
+    <a class="article-category-link" href="/categories/C/" data-aos="zoom-in">C</a>
   </div>
 
 
@@ -405,7 +416,7 @@
         <blockquote class="article-copyright">
     <p><strong><span class="icon-user icon"></span>本文作者：</strong>星辰星宇1314 @ 小站</p>
     <p><strong><span class="icon-link icon"></span>本文链接：</strong><a href="https://qsy1225.github.io/xuanze1/">https://qsy1225.github.io/xuanze1/</a></p>
-    <p><strong><span class="icon-pencil icon"></span>本文标题：</strong>「c语言代码」</p>
+    <p><strong><span class="icon-pencil icon"></span>本文标题：</strong>「c语言选择结构」</p>
     
     
     <p><strong><span class="icon-copyright icon"></span>本文版权：</strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener external nofollow noreferrer" target="_blank"><span class="icon-creative-commons"></span>BY-NC-SA</a> 许可协议。转载请注明出处！</p>
@@ -425,7 +436,7 @@
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in"><a class="article-tag-list-link" href="/tags/C/" rel="tag">C</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in"><a class="article-tag-list-link" href="/tags/C-C/" rel="tag">C&#x2F;C++</a></li></ul>
 
 
     </footer>
@@ -494,10 +505,10 @@
     
       <div>
         <span class="icon-brush"></span>
-        3.8k
+        4.4k
         &nbsp;|&nbsp;
         <span class="icon-coffee"></span>
-        00:23
+        00:24
       </div>
     
     
@@ -525,7 +536,8 @@
       <nav id="mobile-nav">
   <div class="sidebar-wrap">
     
-      <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+      
+        <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
   <h3 class="toc-title">文章目录</h3>
   <div class="sidebar-toc-wrapper toc-div-class" >
       
@@ -534,7 +546,7 @@
   </div>
 </div>
 </div>
-      <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="星辰星宇1314" class="lazyload">
   <div class="sidebar-author-name">星辰星宇1314</div>
   <div class="sidebar-description"></div>
@@ -542,15 +554,15 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>文章</div>
-    <div class="sidebar-state-number">11</div>
+    <div class="sidebar-state-number">12</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
-    <div class="sidebar-state-number">5</div>
+    <div class="sidebar-state-number">7</div>
   </div>
   <div class="sidebar-state-tag">
     <div>标签</div>
-    <div class="sidebar-state-number">7</div>
+    <div class="sidebar-state-number">8</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -594,13 +606,16 @@
   
 </div>
 </div>
+      
     
   </div>
   
-    <div class="sidebar-btn-wrapper">
-      <div class="sidebar-toc-btn current"></div>
-      <div class="sidebar-common-btn"></div>
-    </div>
+    
+      <div class="sidebar-btn-wrapper">
+        <div class="sidebar-toc-btn current"></div>
+        <div class="sidebar-common-btn"></div>
+      </div>
+    
   
 </nav>
 
@@ -671,7 +686,7 @@
 <script src="https://npm.webcache.cn/mouse-firework@0.1.0/dist/index.umd.js" integrity="sha384-KM6i7tu43nYd6e0beIljxHMC5tZc58XBDu7pPA58w50h18Jsx7gLdimfS09RXlKv" crossorigin="anonymous"></script>
 
   <script>
-    window.firework && window.firework(JSON.parse('{"excludeElements":["a","button"],"particles":[{"shape":"circle","move":["emit"],"easing":"easeOutExpo","colors":["#4a90e2","#7babed","#b2d3ff"],"number":10,"duration":[850,1600],"shapeOptions":{"radius":[16,32],"alpha":[0.3,0.5]}}]}'))
+    window.firework && window.firework(JSON.parse('{"excludeElements":["a","button"],"particles":[{"shape":"circle","move":["emit"],"easing":"easeOutExpo","colors":["#ff5252","#ff7c7c","#ffafaf","#ffd0d0","#4a90e2","#7babed","#b2d3ff"],"number":10,"duration":[1200,1800,850,1600],"shapeOptions":{"radius":[16,32],"alpha":[0.3,0.5]}},{"shape":"circle","move":["diffuse"],"easing":"easeOutExpo","colors":["#ff0000"],"number":1,"duration":[1200,1800],"shapeOptions":{"radius":20,"alpha":[0.2,0.5],"lineWidth":6}}]}'))
   </script>
 
 
@@ -827,13 +842,13 @@
       <script data-pjax>
         window.REIMU_POST = {
           author: "星辰星宇1314",
-          title: "c语言代码",
+          title: "c语言选择结构",
           url: "https://qsy1225.github.io/xuanze1/",
           excerpt: "",
           description: "",
           stripContent: "以下仅供同学们学习使用，禁止照抄答案！ c语言实验2 选择结构  奇偶数判断 123456789101112131415161718#include&amp;lt;stdio.h&amp;gt;int main()&amp;#123;    int a;    scanf(&amp;quot;%d&amp;quot;,&amp;amp;a);    if(a%2==0)    &amp;#123;        printf(&amp;quot;Even&amp;quot;);    &amp;#125;    else    &amp;#123;        printf(&amp;q",
           date: "Fri Feb 14 2025 23:08:17 GMT+0800",
-          updated: "Tue Mar 18 2025 14:50:24 GMT+0800",
+          updated: "Sun Mar 30 2025 22:36:40 GMT+0800",
           cover: "/pp/aurora/cover.jpg",
         };
       </script>
@@ -887,8 +902,8 @@
         lang: 'zh-CN',
         locale: {},
         emoji: ["https://unpkg.com/@waline/emojis@1.2.0/weibo","https://unpkg.com/@waline/emojis@1.2.0/alus","https://unpkg.com/@waline/emojis@1.2.0/bilibili","https://unpkg.com/@waline/emojis@1.2.0/qq","https://unpkg.com/@waline/emojis@1.2.0/tieba","https://unpkg.com/@waline/emojis@1.2.0/tw-emoji"],
-        meta: ["nick"],
-        requiredMeta: [],
+        meta: ["nick","mail","link"],
+        requiredMeta: ["nick","mail"],
         wordLimit: JSON.parse('0'),
         comment: true,
         pageSize: JSON.parse('5'),
@@ -918,7 +933,7 @@
   \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
                                                   
 `,'color: #ff5252;')
-    console.log('%c Theme.Reimu v' + '1.5.0' + ' %c https://github.com/D-Sketon/hexo-theme-reimu ', 'color: white; background: #ff5252; padding:5px 0;', 'padding:4px;border:1px solid #ff5252;')
+    console.log('%c Theme.Reimu v' + '1.6.0' + ' %c https://github.com/D-Sketon/hexo-theme-reimu ', 'color: white; background: #ff5252; padding:5px 0;', 'padding:4px;border:1px solid #ff5252;')
   </script>
   
 
@@ -970,6 +985,9 @@
 
 
 
+
+
+    
   </body>
   </html>
 

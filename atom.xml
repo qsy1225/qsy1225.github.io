@@ -6,7 +6,7 @@
   <link href="https://qsy1225.github.io/atom.xml" rel="self"/>
   
   <link href="https://qsy1225.github.io/"/>
-  <updated>2025-02-25T15:18:37.932Z</updated>
+  <updated>2025-03-30T14:38:54.685Z</updated>
   <id>https://qsy1225.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>至今我读过的日本小说</title>
+    <link href="https://qsy1225.github.io/jpnov/"/>
+    <id>https://qsy1225.github.io/jpnov/</id>
+    <published>2025-03-30T14:37:12.000Z</published>
+    <updated>2025-03-30T14:38:54.685Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;突然想记录下至今我读过或拥有的所有日本小说。&lt;/p&gt;
+&lt;p&gt;排名不分顺序，想到哪个就写哪个。未来可能会按作者假名排序。&lt;/p&gt;
+&lt;h5 id=&quot;四季大雅-我想成为你的眼泪&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="轻小说" scheme="https://qsy1225.github.io/categories/%E8%BD%BB%E5%B0%8F%E8%AF%B4/"/>
+    
+    
+    <category term="轻小说" scheme="https://qsy1225.github.io/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/"/>
+    
+  </entry>
   
   <entry>
     <title>How to Customize the Footer in Hexo Aurora Theme</title>
@@ -94,11 +121,11 @@
   </entry>
   
   <entry>
-    <title>c语言代码</title>
+    <title>c语言选择结构</title>
     <link href="https://qsy1225.github.io/xuanze1/"/>
     <id>https://qsy1225.github.io/xuanze1/</id>
     <published>2025-02-14T15:08:17.000Z</published>
-    <updated>2025-03-18T06:50:24.841Z</updated>
+    <updated>2025-03-30T14:36:40.793Z</updated>
     
     
       
@@ -114,10 +141,10 @@
     
     
     
-    <category term="Aurora" scheme="https://qsy1225.github.io/categories/Aurora/"/>
+    <category term="C" scheme="https://qsy1225.github.io/categories/C/"/>
     
     
-    <category term="C" scheme="https://qsy1225.github.io/tags/C/"/>
+    <category term="C/C++" scheme="https://qsy1225.github.io/tags/C-C/"/>
     
   </entry>
   
@@ -126,7 +153,7 @@
     <link href="https://qsy1225.github.io/xuanze0/"/>
     <id>https://qsy1225.github.io/xuanze0/</id>
     <published>2025-02-14T15:08:17.000Z</published>
-    <updated>2025-03-18T06:52:30.009Z</updated>
+    <updated>2025-03-30T14:36:32.981Z</updated>
     
     
       
@@ -140,10 +167,10 @@
     
     
     
-    <category term="Aurora" scheme="https://qsy1225.github.io/categories/Aurora/"/>
+    <category term="C" scheme="https://qsy1225.github.io/categories/C/"/>
     
     
-    <category term="C" scheme="https://qsy1225.github.io/tags/C/"/>
+    <category term="C/C++" scheme="https://qsy1225.github.io/tags/C-C/"/>
     
   </entry>
   
