@@ -6,7 +6,7 @@
   <link href="https://qsy1225.github.io/atom.xml" rel="self"/>
   
   <link href="https://qsy1225.github.io/"/>
-  <updated>2025-03-30T14:38:54.685Z</updated>
+  <updated>2025-04-29T13:12:32.528Z</updated>
   <id>https://qsy1225.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>c语言循环结构</title>
+    <link href="https://qsy1225.github.io/xunhuan/"/>
+    <id>https://qsy1225.github.io/xunhuan/</id>
+    <published>2025-04-29T12:59:17.000Z</published>
+    <updated>2025-04-29T13:12:32.528Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;循环实验&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#循环实验&quot;&gt;&lt;/a&gt; 循环实验&lt;/h3&gt;
+&lt;h4 id=&quot;求1到n之间的奇数之和&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="C" scheme="https://qsy1225.github.io/categories/C/"/>
+    
+    
+    <category term="C/C++" scheme="https://qsy1225.github.io/tags/C-C/"/>
+    
+  </entry>
   
   <entry>
     <title>至今我读过的日本小说</title>
@@ -65,6 +91,32 @@
     
     
     <category term="Aurora" scheme="https://qsy1225.github.io/tags/Aurora/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>c语言顺序结构</title>
+    <link href="https://qsy1225.github.io/shunxu/"/>
+    <id>https://qsy1225.github.io/shunxu/</id>
+    <published>2025-02-15T12:08:17.000Z</published>
+    <updated>2025-04-29T13:11:43.352Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;顺序实验&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#顺序实验&quot;&gt;&lt;/a&gt; 顺序实验&lt;/h3&gt;
+&lt;h4 id=&quot;sdut-c语言实验ab-problem&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="C" scheme="https://qsy1225.github.io/categories/C/"/>
+    
+    
+    <category term="C/C++" scheme="https://qsy1225.github.io/tags/C-C/"/>
     
   </entry>
   
@@ -122,10 +174,10 @@
   
   <entry>
     <title>c语言选择结构</title>
-    <link href="https://qsy1225.github.io/xuanze1/"/>
-    <id>https://qsy1225.github.io/xuanze1/</id>
+    <link href="https://qsy1225.github.io/xuanze/"/>
+    <id>https://qsy1225.github.io/xuanze/</id>
     <published>2025-02-14T15:08:17.000Z</published>
-    <updated>2025-03-30T14:36:40.793Z</updated>
+    <updated>2025-04-29T12:56:12.231Z</updated>
     
     
       
@@ -136,32 +188,6 @@
 &lt;p&gt;c语言实验2 选择结构&lt;/p&gt;
 &lt;h4 id=&quot;奇偶数判断&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#奇偶数判断&quot;&gt;&lt;/a&gt; 奇偶数判断&lt;/h4&gt;
 &lt;figure</summary>
-        
-      
-    
-    
-    
-    <category term="C" scheme="https://qsy1225.github.io/categories/C/"/>
-    
-    
-    <category term="C/C++" scheme="https://qsy1225.github.io/tags/C-C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>c语言顺序结构</title>
-    <link href="https://qsy1225.github.io/xuanze0/"/>
-    <id>https://qsy1225.github.io/xuanze0/</id>
-    <published>2025-02-14T15:08:17.000Z</published>
-    <updated>2025-03-30T14:36:32.981Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;顺序实验&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#顺序实验&quot;&gt;&lt;/a&gt; 顺序实验&lt;/h3&gt;
-&lt;h4 id=&quot;sdut-c语言实验ab-problem&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
         
       
     
